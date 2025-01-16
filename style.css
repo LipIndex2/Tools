@@ -1,0 +1,104 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+}
+
+.myDiv {
+    display: block;
+    overflow-y: scroll;
+    height: 550px;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    background-color: white;
+}
+
+.myDiv3 {
+    display: block;
+    overflow-y: scroll;
+    height: 150px;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    background-color: white;
+}
+
+textarea {
+    height: 95%;
+    width: 95%;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+}
+
+.myDiv2 {
+    display: block;
+    overflow-y: scroll;
+    height: 95%;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    background-color: white;
+}
+
+
+html,
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.myText {
+    word-wrap: break-word;
+}
+
+
+.inputClass {
+    width: 95%;
+    font-size: 15px;
+    height: 20px;
+}
+
+.prefixClass {
+    width: 95%;
+    font-size: 15px;
+    height: 20px;
+}
+
+.refresh {
+    background-color: rgb(182, 22, 22);
+    color: black;
+}
+
+.selectClass {
+    float: left;
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+    background-color: beige;
+}
+
+.selectCanvas {
+
+    width: 100%;
+}
+
+.selectBtn {
+    float: left;
+    margin-left: 10px;
+    width: 45%;
+    height: 50px;
+}
+
+.startBtn {
+    margin-left: 40%;
+    background-color: purple;
+    color: white;
+}

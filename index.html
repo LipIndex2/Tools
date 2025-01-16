@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>多语言收集工具</title>
+</head>
+
+<body>
+    <div id="div1" class="myDiv">
+        打开多场景配置文件:
+        <div id="pathButton"></div>
+        请选择Excel路径:
+        <div id="excelField"></div>
+        <div id="excelButton"></div>
+        请设置代码收集的前缀:
+        <div id="prefixField"></div>
+        <div id="selectCanvas">
+
+        </div >
+        <div id="stepButton"></div>
+    </div>
+    <div class="myDiv2" id="output"></div>
+</body>
+<script src="./renderer.js"></script>
+<link rel="stylesheet" href="style.css">
+<!-- <script src="./renderer.js"></script> -->
+
+</html>
+
