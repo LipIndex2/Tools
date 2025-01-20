@@ -1,2 +1,7 @@
 debug运行：package.json 点击调试 或 npm run start
 打包：npm run package
+
+安装electron失败
+ npm install -g cnpm --registry=https://registry.npmmirror.com
+ cnpm install --save-dev electron
+教程 https://zhuanlan.zhihu.com/p/562217675#:~:text=%E4%BD%A0%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E6%88%91%E4%BB%AC%E5%AE%9A%E5%88%B6%E7%9A%84
