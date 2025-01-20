@@ -13,8 +13,6 @@ var path = require('path');
 const { isString } = require('util');
 const ExcelJS = require('exceljs');
 
-const crypto = require('crypto');
-
 // 创建一个新的工作簿对象
 const workbook = new ExcelJS.Workbook();
 
@@ -29,15 +27,6 @@ var callBack = null;
 
 // 脚本前缀
 var prefix = "LanUtil.getLanguage";
-
-/**
- * Generates a unique ID.
- * @param {number} length - The length of the generated ID.
- * @returns {string} The generated unique ID.
- */
-function generateUniqueId(length = 16) {
-    return crypto.randomBytes(length).toString('hex');
-}
 
 // 读取关卡数据
 function readToJson(path) {
@@ -102,8 +91,6 @@ function tryChangeUI(dirPath) {
     return new Promise(async (resolve, reject) => {
         const files = fs.readdirSync(dirPath); // 读取目录下的所有文件和文件夹
 
-        const ignoreUIArr = readToJson(__dirname + "/ignoreUI.json");
-
         for (let file of files) {
             const filePath = path.join(dirPath, file); // 文件的完整路径
             const stats = fs.statSync(filePath); // 获取文件信息
@@ -112,12 +99,6 @@ function tryChangeUI(dirPath) {
             if (stats.isFile()) {
                 // 后缀必须是.ui
                 if (!filePath.endsWith(".ui")) continue;
-
-                // 如果是需要忽略的文件
-                if (ignoreUIArr.find(fileName => file === fileName + ".ui")) {
-                    continue;
-                }
-
                 // 读取对应文本
                 await new Promise((resolve2, reject2) => {
                     let cb = (coding) => {
@@ -134,13 +115,6 @@ function tryChangeUI(dirPath) {
                                 }
                             }
 
-                            // 如果文件需要忽略掉
-                            if (filePath.indexOf("UI\\RankNew") !== -1) {
-                                resolve2(false);
-                                return;
-                            }
-
-
                             if (!data) {
                                 resolve2(false);
                                 return;
@@ -149,6 +123,7 @@ function tryChangeUI(dirPath) {
                             let isChange = false;
 
                             const id = "344291E4";
+                            let idCount = 0;
 
                             // 递归遍历
                             let repCb = (forData, parentKey) => {
@@ -158,12 +133,6 @@ function tryChangeUI(dirPath) {
 
                                     if (key.indexOf("MW") === -1) {
                                         continue;
-                                    }
-
-                                    // 如果UI中有ts脚本
-                                    if (forData["TSScript"]) {
-                                        resolve2(false);
-                                        return;
                                     }
 
                                     let textIsGood = false;
@@ -184,75 +153,57 @@ function tryChangeUI(dirPath) {
                                         }
 
                                         const childPos = !child["Transform"] || !child["Transform"]["Position"] ? { "X": 0, "Y": 0 } : child["Transform"]["Position"];
-                                        const childSize = !child["Transform"] || !child["Transform"]["Size"] ? (key.indexOf("MWTextBlock") !== -1 ? { "X": 200, "Y": 100 } : { "X": 100, "Y": 100 }) : child["Transform"]["Size"];
-                                        const childAngle = !child["Angle"] ? 0 : child["Angle"];
-                                        const childRenderShear = !child["RenderShear"] ? { "X": 0, "Y": 0 } : child["RenderShear"];
-                                        const childRenderScale = !child["RenderScale"] ? { "X": 1, "Y": 1 } : child["RenderScale"];
-
-                                        // 如果父类开启了自动排版就不需要加Canvas
-                                        if (parentKey.indexOf("MWCanvas") !== 1 && (parent["AutoLayoutEnable"] && parent["AutoLayout"] && parent["AutoLayout"]["AutoLayout"])) {
-                                            continue;
-                                        }
-
-                                        // 唯一key
-                                        const onlyKey = generateUniqueId();
+                                        const childSize = !child["Transform"] || !child["Transform"]["Size"] ? { "X": 100, "Y": 100 } : child["Transform"]["Size"];
 
                                         // 如果父类是MWCanvas 并且打开了溢出隐藏 并且不水平自动大小 不是垂直自动大小 没有开启自动布局
                                         if (parentKey.indexOf("MWCanvas") !== 1
                                             && parent["Cliping"]
                                             && (!parent["AutoSizePack"] || (!parent["AutoSizePack"]["HorizontalAutoSize"] && !parent["AutoSizePack"]["VerticalAutoSize"])
                                                 && (!parent["AutoLayoutEnable"] && (!parent["AutoLayout"] || !parent["AutoLayout"]["AutoLayout"])))) {
-                                            // // 如果父类的大小与文本差距大于5就有问题
-                                            // if (Math.abs(childSize["X"] - parent["Transform"]["Size"]["X"]) > 5 || Math.abs(childSize["Y"] - parent["Transform"]["Size"]["Y"]) > 5
-                                            //     || (childPos["X"] > 3 || childPos["Y"] > 3)) {
-                                            //     // 新建一个Canvas
-                                            //     isChange = true;
+                                            // 如果父类的大小与文本差距大于5就有问题
+                                            if (Math.abs(childSize["X"] - parent["Transform"]["Size"]["X"]) > 5 || Math.abs(childSize["Y"] - parent["Transform"]["Size"]["Y"]) > 5
+                                                || (childPos["X"] > 3 || childPos["Y"] > 3)) {
+                                                // 新建一个Canvas
+                                                isChange = true;
 
-                                            //     // 删除子类
-                                            //     delete parent[key];
-                                            //     let newKey = "MWCanvas_" + id + onlyKey;
-                                            //     let newCanvas = JSON.parse(JSON.stringify(CanvasTemplate));
-                                            //     parent[newKey] = newCanvas;
-                                            //     newCanvas.Transform.Position.X = childPos["X"] || 0;
-                                            //     newCanvas.Transform.Position.Y = childPos["Y"] || 0;
-                                            //     newCanvas.Transform.Size.X = childSize["X"] || (key.indexOf("MWTextBlock") !== -1 ? 200 : 100);
-                                            //     newCanvas.Transform.Size.Y = childSize["Y"] || 100;
-                                            // newCanvas.Angle = childAngle;
-                                            // newCanvas.RenderShear = childRenderShear;
-                                            //     if (child["Transform"] && child["Transform"]["Position"]) {
-                                            //         delete child["Transform"]["Position"];
-                                            //     }
-                                            //     newCanvas[key] = child;
-                                            //     newCanvas.Name = "RollCanvas_" + onlyKey;
-                                            // } else {
-                                            //     // 原有的父类没问题
-                                            //     continue;
-                                            // }
-                                            continue;
+                                                // 删除子类
+                                                delete parent[key];
+                                                idCount++;
+                                                let newKey = "MWCanvas_" + id + idCount;
+                                                let newCanvas = JSON.parse(JSON.stringify(CanvasTemplate));
+                                                parent[newKey] = newCanvas;
+                                                newCanvas.Transform.Position.X = childPos["X"] || 0;
+                                                newCanvas.Transform.Position.Y = childPos["Y"] || 0;
+                                                newCanvas.Transform.Size.X = childSize["X"] || 100;
+                                                newCanvas.Transform.Size.Y = childSize["Y"] || 100;
+                                                if (child["Transform"] && child["Transform"]["Position"]) {
+                                                    delete child["Transform"]["Position"];
+                                                }
+                                                newCanvas[key] = child;
+                                                newCanvas.Name = "RollCanvas_" + idCount;
+                                            } else {
+                                                // 原有的父类没问题
+                                                continue;
+                                            }
                                         } else {
                                             // 新建一个Canvas
                                             isChange = true;
 
                                             // 删除子类
                                             delete parent[key];
-                                            let newKey = "MWCanvas_" + id + onlyKey;
+                                            idCount++;
+                                            let newKey = "MWCanvas_" + id + idCount;
                                             let newCanvas = JSON.parse(JSON.stringify(CanvasTemplate));
                                             parent[newKey] = newCanvas;
                                             newCanvas.Transform.Position.X = childPos["X"] || 0;
                                             newCanvas.Transform.Position.Y = childPos["Y"] || 0;
-                                            newCanvas.Transform.Size.X = childSize["X"] || (key.indexOf("MWTextBlock") !== -1 ? 200 : 100);
+                                            newCanvas.Transform.Size.X = childSize["X"] || 100;
                                             newCanvas.Transform.Size.Y = childSize["Y"] || 100;
-                                            newCanvas.Angle = childAngle;
-                                            newCanvas.RenderShear = childRenderShear;
-                                            newCanvas.RenderScale = childRenderScale;
-                                            delete child["Angle"];
-                                            delete child["RenderShear"];
-                                            delete child["RenderScale"];
                                             if (child["Transform"] && child["Transform"]["Position"]) {
                                                 delete child["Transform"]["Position"];
                                             }
                                             newCanvas[key] = child;
-                                            newCanvas.Name = "RollCanvas_" + onlyKey;
+                                            newCanvas.Name = "RollCanvas_" + idCount;
                                         }
                                     } else {
                                         repCb(forData[key], key);
