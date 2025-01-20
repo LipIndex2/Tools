@@ -37,26 +37,26 @@ async function runFunc() {
     // const element = document.getElementById("refreshButton");
     // element.appendChild(para1);
 
-    // // 添加选择Excel路径
-    // const paraExcel = document.createElement("input");
-    // paraExcel.className = "inputClass"
-    // paraExcel.value = pathConfig.excelPath;
-    // paraExcel.style.color = "green";
-    // const inputExcelPathDiv = document.getElementById("excelField");
-    // inputExcelPathDiv.appendChild(paraExcel);
-    // inputExcelPathDiv.scrollTop = inputExcelPathDiv.scrollHeight;
+    // 添加选择Excel路径
+    const paraExcel = document.createElement("input");
+    paraExcel.className = "inputClass"
+    paraExcel.value = pathConfig.excelPath;
+    paraExcel.style.color = "green";
+    const inputExcelPathDiv = document.getElementById("excelField");
+    inputExcelPathDiv.appendChild(paraExcel);
+    inputExcelPathDiv.scrollTop = inputExcelPathDiv.scrollHeight;
 
-    // // 创建一个刷新按钮在inputPath中
-    // const paraSelectExcelPath = document.createElement("button");
-    // paraSelectExcelPath.className = "refresh"
-    // paraSelectExcelPath.addEventListener('click', () => {
-    //     // 刷新路径和当前文件
-    //     window.electronAPI.onSelectFolderExcel(paraExcel.value);
-    // });
-    // const nodeExcel = document.createTextNode("选择Excel路径..");
-    // paraSelectExcelPath.appendChild(nodeExcel);
-    // const elementExcel = document.getElementById("excelButton");
-    // elementExcel.appendChild(paraSelectExcelPath);
+    // 创建一个刷新按钮在inputPath中
+    const paraSelectExcelPath = document.createElement("button");
+    paraSelectExcelPath.className = "refresh"
+    paraSelectExcelPath.addEventListener('click', () => {
+        // 刷新路径和当前文件
+        window.electronAPI.onSelectFolderExcel(paraExcel.value);
+    });
+    const nodeExcel = document.createTextNode("选择Excel路径..");
+    paraSelectExcelPath.appendChild(nodeExcel);
+    const elementExcel = document.getElementById("excelButton");
+    elementExcel.appendChild(paraSelectExcelPath);
 
     // // 填写多语言表的名称
     // const paraLanguage = document.createElement("input");
@@ -79,14 +79,14 @@ async function runFunc() {
     // const element3 = document.getElementById("languageButton");
     // element3.appendChild(paraLanguageBtn);
 
-    // // 添加前缀
-    // const paraPrefix = document.createElement("input");
-    // paraPrefix.className = "prefixClass"
-    // paraPrefix.value = pathConfig.prefix;
-    // paraPrefix.style.color = "green";
-    // const prefixField = document.getElementById("prefixField");
-    // prefixField.appendChild(paraPrefix);
-    // prefixField.scrollTop = prefixField.scrollHeight;
+    // 添加前缀
+    const paraPrefix = document.createElement("input");
+    paraPrefix.className = "prefixClass"
+    paraPrefix.value = pathConfig.prefix;
+    paraPrefix.style.color = "green";
+    const prefixField = document.getElementById("prefixField");
+    prefixField.appendChild(paraPrefix);
+    prefixField.scrollTop = prefixField.scrollHeight;
 
     // 开始收集
     const paraBtn = document.createElement("button");
@@ -95,32 +95,15 @@ async function runFunc() {
         const [config, filePath] = await window.electronAPI.openFile();
 
         // 先修改前缀
-        await window.electronAPI.changePrefixAndLanName("", config.languageExcelName);
+        await window.electronAPI.changePrefixAndLanName(paraPrefix.value, config.languageExcelName);
 
         // 再开始收集
-        window.electronAPI.runProgram("", config.excelPath, config.languageExcelName);
+        window.electronAPI.runProgram(paraPrefix.value, config.excelPath, config.languageExcelName);
     });
     const node2 = document.createTextNode("开始收集");
     paraBtn.appendChild(node2);
     const element2 = document.getElementById("stepButton");
     element2.appendChild(paraBtn);
-
-    // // 开始还原
-    // const resetBtn = document.createElement("button");
-    // paraBtn.className = "resetBtn"
-    // paraBtn.addEventListener('click', async () => {
-    //     const [config, filePath] = await window.electronAPI.openFile();
-
-    //     // 先修改前缀
-    //     await window.electronAPI.changePrefixAndLanName("", config.languageExcelName);
-
-    //     // 再开始收集
-    //     window.electronAPI.runProgram("", config.excelPath, config.languageExcelName);
-    // });
-    // const node2 = document.createTextNode("开始还原");
-    // paraBtn.appendChild(node2);
-    // const element2 = document.getElementById("stepButton");
-    // element2.appendChild(paraBtn);
 
     // const [config, filePath] = await window.electronAPI.openFile();
     // for (let i = 0; i < filePath.length; i++) {
