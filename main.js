@@ -115,22 +115,13 @@ async function testFunc() {
 
 async function runProgram(event, prefix, excelPath, languageExcelName) {
     // 如果传入的内容有一个为空那么都跑不了
-    if (!prefix) {
-        consoleERROR("传入的脚本前缀为空!!!");
-        return;
-    }
-
-    if (!excelPath) {
-        consoleERROR("传入的Excel路径为空!!!");
-        return;
-    }
-
-    if (!languageExcelName) {
-        consoleERROR("传入的多语言表名称为空!!!");
-        return;
-    }
-
     const pathConfig = await getPathConfig();
+
+    if (!selectProjectName) {
+        let v = await getPathConfig();
+        selectProjectName = v[0].ProjectName;
+    }
+
     const curSelectProject = pathConfig.find(v => v.ProjectName === selectProjectName);
 
     if (!fs.existsSync(curSelectProject.ProjectPath)) {

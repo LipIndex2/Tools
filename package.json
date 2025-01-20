@@ -1,10 +1,10 @@
 {
-  "name": "多语言收集工具9.3",
-  "version": "0.9.3",
+  "name": "自动添加滚动框工具4.1",
+  "version": "0.4.1",
   "private": true,
   "main": "main.js",
   "author": "Peng Li",
-  "description": "多语言收集工具9.3",
+  "description": "自动添加滚动框工具4.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -19,6 +19,7 @@
     "bootstrap": "^3.4.1",
     "child_process": "^1.0.2",
     "comment-json": "^4.2.3",
+    "crypto": "^1.0.1",
     "del": "^6.0.0",
     "electron-builder-squirrel-windows": "^25.0.0-alpha.6",
     "electron-connect": "^0.6.3",

@@ -441,187 +441,6 @@ function tryChangeExcel(dirPath, outResult = {}) {
     });
 }
 
-// 替换Language标识
-function tryReplaceTagExcel(dirPath) {
-    return new Promise(async (resolve, reject) => {
-        const files = fs.readdirSync(dirPath); // 读取目录下的所有文件和文件夹
-
-        for (let file of files) {
-            const filePath = path.join(dirPath, file); // 文件的完整路径
-            const stats = fs.statSync(filePath); // 获取文件信息
-
-            // 如果是文件，则进行处理
-            if (stats.isFile()) {
-                // 后缀必须是.xlsx
-                if (!filePath.endsWith(".xlsx")) continue;
-                // 读取对应文本
-                await new Promise((resolve2, reject2) => {
-                    if (filePath == pahtExcel) {
-                        return reject2(true);
-                    }
-
-                    workbook.xlsx.readFile(filePath).then(() => {
-                        const worksheet = workbook.getWorksheet(1);
-
-                        const sheetData = worksheet.getSheetValues();
-                        let isChange = false;
-
-                        // 如果第4个有Language标注
-                        for (let index = 0; index < sheetData[2 + 1].length - 1; index++) {
-                            if (!sheetData[3 + 1]) continue;
-                            let title = sheetData[3 + 1][index + 1];
-                            if (title === "Language") {
-                                worksheet.getCell(3 + 1, index + 1).value = "LanguageCollect";
-                                isChange = true;
-                            }
-                        }
-
-                        // 改变了就写入
-                        if (isChange) {
-                            consoleLog(filePath);
-                            workbook.xlsx.writeFile(filePath).then(() => {
-                                resolve2(true);
-                            });
-                        } else {
-                            resolve2(true);
-                        }
-                    }).catch((err) => {
-                        consoleError(err);
-                        resolve2(false);
-                    });
-                });
-            } else if (stats.isDirectory()) {
-                // 如果是文件夹，则递归调用函数继续读取文件夹内的文件
-                await tryChangeExcel(filePath);
-            }
-        }
-        resolve(true);
-    });
-}
-
-// 创建正则表达式，使用捕获组括号 ()
-const regexContent = new RegExp('GameConfig\\.Language\\.\\w+\\.\\w+', 'g');
-
-// 尝试改变代码中的多语言函数
-function tryReplaceScript(dirPath) {
-    return new Promise(async (resolve, reject) => {
-        const files = fs.readdirSync(dirPath); // 读取目录下的所有文件和文件夹
-
-        for (let file of files) {
-            // 如果是ui-generate跳过
-            if (file.indexOf("ui-generate") !== -1) {
-                continue;
-            }
-
-            const filePath = path.join(dirPath, file); // 文件的完整路径
-            const stats = fs.statSync(filePath); // 获取文件信息
-
-            // 如果是文件，则进行处理
-            if (stats.isFile()) {
-                // 后缀必须是.ts
-                if (!filePath.endsWith(".ts")) continue;
-                // 读取对应文本
-                await new Promise((resolve2, reject2) => {
-                    let cb = (coding) => {
-                        fs.readFile(filePath, coding, async (err, data) => {
-                            if (err) {
-                                consoleError(err);
-
-                                // 如果当前是utf16le格式，那就不用再试了
-                                if (coding === 'utf8') {
-                                    cb('utf16le');
-                                    return;
-                                } else {
-                                    return resolve2(false);
-                                }
-                            }
-
-                            // 找出代码中所有的调用_LC的函数
-                            const matchArr = data.match(regexContent);
-                            if (matchArr) {
-                                // "LanUtil.getLanguage("内容")";
-                                for (let needChangeContext of matchArr) {
-                                    // 筛选出带双引号的文本
-                                    const regex = /GameConfig\.Language\.(\w+)\.Value/;
-
-
-                                    // 取出内容
-                                    const result = needChangeContext.match(regex)[1];
-
-                                    data = data.replace(`GameConfig.Language.${result}.Value`, `${prefix}(\"` + result + "\")");
-                                }
-                            } else {
-                                // 单引号
-                                const singleQuote = new RegExp("GameConfig\\.Language\\.getElement\\('([^']+)'\\)\\.Value", 'g');
-
-                                // 双引号
-                                const doubleQuote = new RegExp('GameConfig\\.Language\\.getElement\\("([^"]+)"\\)\\.Value', 'g');
-
-                                // 反引号
-                                const backQuote = new RegExp('GameConfig\\.Language\\.getElement\\(`([^`]+)`\\)\\.Value', 'g');
-
-                                let matchArr = data.match(singleQuote);
-                                if (!matchArr) {
-                                    matchArr = data.match(doubleQuote);
-                                    if (!matchArr) {
-                                        matchArr = data.match(backQuote);
-                                    }
-                                }
-
-                                if (matchArr) {
-                                    for (let needChangeContext of matchArr) {
-                                        // 筛选出带双引号的文本
-                                        const singleRegex = "GameConfig\\.Language\\.getElement\\('([^']+)'\\)\\.Value";
-
-                                        // 双引号
-                                        const doubleRegex = 'GameConfig\\.Language\\.getElement\\("([^"]+)"\\)\\.Value';
-
-                                        // 反引号
-                                        const backRegex = 'GameConfig\\.Language\\.getElement\\(`([^`]+)`\\)\\.Value';
-
-                                        // 取出内容
-                                        let matchContent = needChangeContext.match(singleRegex);
-                                        if (!matchContent) {
-                                            matchContent = needChangeContext.match(doubleRegex);
-                                            if (!matchContent) {
-                                                matchContent = needChangeContext.match(backRegex);
-                                            }
-                                        }
-
-                                        const result = matchContent[1];
-
-                                        data = data.replace(`GameConfig.Language.getElement(\"` + result + "\").Value", `${prefix}(\"` + result + "\")");
-                                        data = data.replace(`GameConfig.Language.getElement(\'` + result + "\').Value", `${prefix}(\"` + result + "\")");
-                                        data = data.replace(`GameConfig.Language.getElement(\`` + result + "\`).Value", `${prefix}(\"` + result + "\")");
-                                    }
-                                }
-                            }
-
-                            // 文件写入
-                            fs.writeFile(filePath, data, (err) => {
-                                if (err) {
-                                    consoleError(err);
-                                    resolve2(false);
-                                    return;
-                                }
-
-                                resolve2(true);
-                            });
-                        });
-                    }
-
-                    // 先试试utf8
-                    cb('utf8');
-                });
-            } else if (stats.isDirectory()) {
-                // 如果是文件夹，则递归调用函数继续读取文件夹内的文件
-                await tryChangeScript(filePath);
-            }
-        }
-        resolve(true);
-    });
-}
-
 // 识别是否有中文
 function hasChineseCharacters(text) {
     var chineseRegex = /[\u4e00-\u9fff]/;
@@ -863,103 +682,95 @@ function runMulti(consoleTEXT, consoleERROR, inPrefix, rootPath, excelPath, lang
         pahtExcel = languageExcelPath.replace(/\\/g, '/');
         pathUI = currentDirectoryPath.replace("Language", "") + "UI";
 
-        // // 读取 Excel 文件
-        // workbook.xlsx.readFile(pahtExcel)
-        //     .then(async () => {
-        //         // 读取第一个工作表
-        //         const worksheet = workbook.getWorksheet(1);
+        // 读取 Excel 文件
+        workbook.xlsx.readFile(pahtExcel)
+            .then(async () => {
+                // 读取第一个工作表
+                const worksheet = workbook.getWorksheet(1);
 
-        //         // 代码中编号对应的内容替换表中的
-        //         const sheetValues = worksheet.getSheetValues();
+                // 代码中编号对应的内容替换表中的
+                const sheetValues = worksheet.getSheetValues();
 
-        //         let removeIndexArr = [];
+                let removeIndexArr = [];
 
-        //         let needWrite = false;
+                let needWrite = false;
 
-        //         // 先找到配置表,去掉没有内容的行
-        //         sheetValues.forEach((context, index) => {
-        //             if (!context || context.length <= 0) {
-        //                 removeIndexArr.push(index);
-        //                 needWrite = true;
-        //             } else {
-        //                 if (typeof context[1] === "number") {
-        //                     let chineaseIndex = context.findIndex(value => hasChineseCharacters(value));
-        //                     languageConfigData[context[1]] = { id: context[1], key: context[2], value: chineaseIndex !== -1 ? context[chineaseIndex] : context[4] };
-        //                 }
-        //             }
-        //         });
+                // 先找到配置表,去掉没有内容的行
+                sheetValues.forEach((context, index) => {
+                    if (!context || context.length <= 0) {
+                        removeIndexArr.push(index);
+                        needWrite = true;
+                    } else {
+                        if (typeof context[1] === "number") {
+                            let chineaseIndex = context.findIndex(value => hasChineseCharacters(value));
+                            languageConfigData[context[1]] = { id: context[1], key: context[2], value: chineaseIndex !== -1 ? context[chineaseIndex] : context[4] };
+                        }
+                    }
+                });
 
-        //         for (let index of removeIndexArr) {
-        //             worksheet.spliceRows(index, 1);
-        //         }
+                for (let index of removeIndexArr) {
+                    worksheet.spliceRows(index, 1);
+                }
 
-        //         // 是否有Language_多语言表
-        //         if (!fs.existsSync(pahtExcel)) {
-        //             worksheet.addRow(['Int', 'string', 'string', 'string']);
-        //             worksheet.addRow(['id', 'name', 'Value', 'Value_C']);
-        //             worksheet.addRow(['ID', '字段名', '英文', '中文']);
-        //             worksheet.addRow(['', 'Key|ReadByName', 'MainLanguage', 'ChildLanguage']);
-        //             needWrite = true;
-        //         }
+                // 是否有Language_多语言表
+                if (!fs.existsSync(pahtExcel)) {
+                    worksheet.addRow(['Int', 'string', 'string', 'string']);
+                    worksheet.addRow(['id', 'name', 'Value', 'Value_C']);
+                    worksheet.addRow(['ID', '字段名', '英文', '中文']);
+                    worksheet.addRow(['', 'Key|ReadByName', 'MainLanguage', 'ChildLanguage']);
+                    needWrite = true;
+                }
 
-        //         if (needWrite) {
-        //             // 写入
-        //             await workbook.xlsx.writeFile(pahtExcel)
-        //         }
+                if (needWrite) {
+                    // 写入
+                    await workbook.xlsx.writeFile(pahtExcel)
+                }
 
-        //         // 初始化多语言的id
-        //         await initLanguageId();
+                // 初始化多语言的id
+                await initLanguageId();
 
-        //         await readLanguage();
+                await readLanguage();
 
-        //         // 结构 {1: "你好"}
-        //         var collectUILanguage = {};
-        //         tryChangeUI(pathUI, collectUILanguage).then(async () => {
-        //             consoleLog("UI 新收集的文本：" + JSON.stringify(collectUILanguage), "blue");
+                // 结构 {1: "你好"}
+                var collectUILanguage = {};
+                tryChangeUI(pathUI, collectUILanguage).then(async () => {
+                    consoleLog("UI 新收集的文本：" + JSON.stringify(collectUILanguage), "blue");
 
-        //             // 写入Language_多语言表.xlsx
-        //             await wirteToLanguage("UTL_", collectUILanguage);
+                    // 写入Language_多语言表.xlsx
+                    await wirteToLanguage("UTL_", collectUILanguage);
 
-        //             await readLanguage();
+                    await readLanguage();
 
-        //             var collectExcelLanguage = {};
-        //             tryChangeExcel(pathAllExcel, collectExcelLanguage).then(async () => {
-        //                 consoleLog("Excel 新收集的文本：" + JSON.stringify(collectExcelLanguage), "blue");
+                    var collectExcelLanguage = {};
+                    tryChangeExcel(pathAllExcel, collectExcelLanguage).then(async () => {
+                        consoleLog("Excel 新收集的文本：" + JSON.stringify(collectExcelLanguage), "blue");
 
-        //                 // 写入Language_多语言表.xlsx
-        //                 await wirteToLanguage("ETL_", collectExcelLanguage);
+                        // 写入Language_多语言表.xlsx
+                        await wirteToLanguage("ETL_", collectExcelLanguage);
 
-        //                 await readLanguage();
+                        await readLanguage();
 
-        //                 // 读取文件，写入文本
-        //                 var collectScroptResult = {};
+                        // 读取文件，写入文本
+                        var collectScroptResult = {};
 
-        //                 // 转换脚本
-        //                 tryChangeScript(pathZ, collectScroptResult).then(async () => {
-        //                     consoleLog("Script 新收集的文本：" + JSON.stringify(collectScroptResult), "blue");
-        //                     await wirteToLanguage("STL_", collectScroptResult, true);
-        //                     callBack && callBack();
-        //                     callBack = null;
-        //                 });
-        //             });
-        //         });
-        //     })
-        //     .catch(err => {
-        //         // 处理读取文件时出现的错误
-        //         consoleERROR('Error reading file 3:' + err);
-        //     });
+                        // 转换脚本
+                        tryChangeScript(pathZ, collectScroptResult).then(async () => {
+                            consoleLog("Script 新收集的文本：" + JSON.stringify(collectScroptResult), "blue");
+                            await wirteToLanguage("STL_", collectScroptResult, true);
+                            callBack && callBack();
+                            callBack = null;
+                        });
+                    });
+                });
+            })
+            .catch(err => {
+                // 处理读取文件时出现的错误
+                consoleERROR('Error reading file 3:' + err);
+            });
         // const buffer = xlsx.build(data);
         // fs.writeFileSync(pahtExcel, buffer);
 
-        tryReplaceScript(pathZ).then(async () => {
-            consoleLog("替换代码完成", "blue");
 
-            tryReplaceTagExcel(pathAllExcel).then(async () => {
-                consoleLog("替换tag完成", "blue");
-                callBack && callBack();
-                callBack = null;
-            });
-        });
     } catch (err) {
         consoleError(err);
     }
