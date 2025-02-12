@@ -185,19 +185,17 @@ function tryToJson(dirPath) {
                         typeof row.values[i] == "string" &&
                         (row.values[i][0] == "{" || row.values[i][0] == "[")
                       ) {
-                        arr.push(
-                          JSON.parse(
-                            hasChineseCharacters(row.values[i])
-                              ? OpenCC.simplifiedToTraditional(row.values[i])
-                              : row.values[i]
-                          )
-                        );
+                        let resTra = hasChineseCharacters(row.values[i])
+                          ? OpenCC.simplifiedToTraditional(row.values[i])
+                          : row.values[i];
+                        row.getCell(i).value = resTra;
+                        arr.push(JSON.parse(resTra));
                       } else {
-                        arr.push(
-                          hasChineseCharacters(row.values[i])
-                            ? OpenCC.simplifiedToTraditional(row.values[i])
-                            : row.values[i]
-                        );
+                        let resTra = hasChineseCharacters(row.values[i])
+                          ? OpenCC.simplifiedToTraditional(row.values[i])
+                          : row.values[i];
+                        row.getCell(i).value = resTra;
+                        arr.push(resTra);
                       }
                     }
                   }
@@ -212,37 +210,46 @@ function tryToJson(dirPath) {
                 // console.log("endTime：" + (Date.now() - curTime)/ 1000);
               });
 
-              const writeFilePath =
-                // __dirname.split("tools")[0] +
-                "D:\\ccs2\\wjszm-c\\" +
-                "assets\\resources" +
-                "\\config" +
-                filePath.split(dirPath)[1].split("\\" + file)[0] +
-                "\\" +
-                file.split(".xlsx")[0] +
-                ".json";
-              const jsonStr = !isString(writeJson)
-                ? JSON.stringify(writeJson)
-                : writeJson;
+              // 写入
+              workbook.xlsx
+                .writeFile(filePath)
+                .then(() => {
+                  // const writeFilePath =
+                  //   // __dirname.split("tools")[0] +
+                  //   "D:\\ccs2\\wjszm-c\\" +
+                  //   "assets\\resources" +
+                  //   "\\config" +
+                  //   filePath.split(dirPath)[1].split("\\" + file)[0] +
+                  //   "\\" +
+                  //   file.split(".xlsx")[0] +
+                  //   ".json";
+                  // const jsonStr = !isString(writeJson)
+                  //   ? JSON.stringify(writeJson)
+                  //   : writeJson;
 
-              // 添加 UTF-8 BOM
-              const bom = Buffer.from("\uFEFF", "utf8");
-              const dataWithBom = Buffer.concat([
-                bom,
-                Buffer.from(jsonStr, "utf8"),
-              ]);
+                  // // 添加 UTF-8 BOM
+                  // const bom = Buffer.from("\uFEFF", "utf8");
+                  // const dataWithBom = Buffer.concat([
+                  //   bom,
+                  //   Buffer.from(jsonStr, "utf8"),
+                  // ]);
 
-              console.log(filePath);
+                  // console.log(filePath);
 
-              // 文件写入
-              fs.writeFile(writeFilePath, dataWithBom, (err) => {
-                if (err) {
-                  console.error(err);
-                  resolve2(false);
-                  return;
-                }
-                resolve2(true);
-              });
+                  // // 文件写入
+                  // fs.writeFile(writeFilePath, dataWithBom, (err) => {
+                  //   if (err) {
+                  //     console.error(err);
+                  //     resolve2(false);
+                  //     return;
+                  //   }
+                  resolve2(true);
+                  // });
+                })
+                .catch((error) => {
+                  console.error("Error creating file:", error);
+                  resolve2(true);
+                });
             })
             .catch((err) => {
               // 处理读取文件时出现的错误
@@ -263,20 +270,20 @@ var consoleLog;
 
 function run() {
   // tryChangeScript("D:\\ccs2\\wjszm-c\\assets\\script").then(() => {
-  //   var checkPath =
-  //     "D:\\ccs2\\wjszm-c\\" + "assets\\resources" + "\\excel_config";
-  //   tryToJson(checkPath).then(() => {
-  //     console.log("完成");
-  //   });
+  var checkPath =
+    "D:\\ccs2\\wjszm-c\\" + "assets\\resources" + "\\excel_config";
+  tryToJson(checkPath).then(() => {
+    console.log("完成");
+  });
   // });
 
-  tryChangeScript("D:\\ccs2\\wjszm-c\\FairyGUIPrj\\assets").then(() => {
-    // var checkPath =
-    //   "D:\\ccs2\\wjszm-c\\" + "assets\\resources" + "\\excel_config";
-    // tryToJson(checkPath).then(() => {
-    console.log("完成");
-    // });
-  });
+  // tryChangeScript("D:\\ccs2\\wjszm-c\\FairyGUIPrj\\assets").then(() => {
+  //   // var checkPath =
+  //   //   "D:\\ccs2\\wjszm-c\\" + "assets\\resources" + "\\excel_config";
+  //   // tryToJson(checkPath).then(() => {
+  //   console.log("完成");
+  //   // });
+  // });
 }
 run();
 
