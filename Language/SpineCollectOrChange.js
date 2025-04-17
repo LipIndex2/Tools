@@ -1080,6 +1080,71 @@ function runMulti(
   }
 }
 
+async function copyFileToFolder(sourceFilePath, destinationFolderPath) {
+  try {
+      // 确保目标文件夹存在
+      await fs.mkdir(destinationFolderPath, { recursive: true }, (err)=>{
+
+      });
+
+      // 获取源文件的名称
+      const fileName = path.basename(sourceFilePath);
+
+      // 目标文件路径
+      const destinationFilePath = path.join(destinationFolderPath, fileName);
+
+      // 复制文件
+      await fs.copyFile(sourceFilePath, destinationFilePath, (err)=>{
+        
+      });
+      console.log(`文件复制成功: ${sourceFilePath} -> ${destinationFilePath}`);
+  } catch (error) {
+      console.error('复制文件时出错:', error);
+  }
+}
+
+
+const dFloderPath = "D:\\floder\\A1_DragonBones";
+
+function collectDragonBones(dirPath, copyFilesPathInfo) {
+  return new Promise(async (resolve, reject) => {
+    const files = fs.readdirSync(dirPath); // 读取目录下的所有文件和文件夹
+
+    // 检查文件里面有没有.skel后缀文件，找到后开始找.png和.atlas文件
+    for (let file of files) {
+      const filePath = path.join(dirPath, file); // 文件的完整路径
+      const stats = fs.statSync(filePath); // 获取文件信息
+
+      if (filePath.endsWith(".meta")) continue;
+
+      // 如果是文件，则进行处理
+      if (stats.isFile()) {
+        if (filePath.endsWith("_ske.json") || filePath.endsWith("_tex.json") || filePath.endsWith("_tex.png")) {
+          // for (let file2 of files) {
+          //   if (file2.endsWith(".meta")) continue;
+
+          //   // 找到同名文件先收集对应文件全路径
+          //   if (file2.split("_ske.")[0] === file.split("_ske.")[0] || file2.split("_tex.")[0] === file.split("_tex.")[0]) {
+          //     let nameKey = file2.split("_ske.")[0] === file.split("_ske.")[0] ? file.split("_ske.")[0] : file.split("_tex.")[0];
+          //     const filePath2 = path.join(dirPath, file2);
+          //     copyFilesPathInfo[nameKey] = filePath2;
+          //   }
+          // }
+
+          copyFilesPathInfo[file] = filePath;
+
+          // 存一下文件
+          await copyFileToFolder(filePath, dFloderPath);
+        }
+      } else if (stats.isDirectory()) {
+        // 如果是文件夹，则递归调用函数继续读取文件夹内的文件
+        await collectDragonBones(filePath, copyFilesPathInfo);
+      }
+    }
+    resolve(true);
+  });
+}
+
 function collectSpine(dirPath, copyFilesPathInfo) {
   return new Promise(async (resolve, reject) => {
     const files = fs.readdirSync(dirPath); // 读取目录下的所有文件和文件夹
@@ -1169,26 +1234,47 @@ function changeSpine(dirPath, spineInfo) {
 //   }
 // });
 
-var spineCollectPathInfo = {};
+// var spineCollectPathInfo = {};
 
 // 先收集替换的文件路径
-collectSpine("D:/ccs2/wjszm-c/assets/resources", spineCollectPathInfo).then(
+// collectSpine("D:/ccs2/wjszm-c/assets/resources", spineCollectPathInfo).then(
+//   async (result) => {
+//     let arr = [];
+//     for (let key in spineCollectPathInfo) {
+//       if (key.includes(".prefab")) {
+//         arr.push(
+//           spineCollectPathInfo[key]
+//             .replace("D:\\ccs2\\wjszm-c\\assets\\resources\\", "")
+//             .replace(".prefab", "")
+//             .replaceAll("\\", "/")
+//         );
+//       }
+//     }
+//     console.log(arr);
+//     // changeSpine("D:/ccs/wjszm-c/assets/res", spineCollectPathInfo);
+//   }
+// );
+
+
+var dragonBonesCollectPathInfo = {};
+
+// 收集龙骨
+collectDragonBones("D:/git/A1-client/assets", dragonBonesCollectPathInfo).then(
   async (result) => {
     let arr = [];
-    for (let key in spineCollectPathInfo) {
-      if (key.includes(".prefab")) {
-        arr.push(
-          spineCollectPathInfo[key]
-            .replace("D:\\ccs2\\wjszm-c\\assets\\resources\\", "")
-            .replace(".prefab", "")
-            .replaceAll("\\", "/")
-        );
-      }
+    for (let key in dragonBonesCollectPathInfo) {
+      arr.push(
+        dragonBonesCollectPathInfo[key]
+          .replace("D:\\git\\A1-client\\assets", "")
+          // .replace(".prefab", "")
+          .replaceAll("\\", "/")
+      );
     }
     console.log(arr);
     // changeSpine("D:/ccs/wjszm-c/assets/res", spineCollectPathInfo);
   }
 );
+
 
 // 使用node运行 测试代码
 // var config = {
