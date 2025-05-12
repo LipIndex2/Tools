@@ -1,0 +1,1172 @@
+[
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\HttpCmd.js",
+    "name": "HttpCmd.js",
+    "newName": "HttpCmd.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\lookMemery.js",
+    "name": "lookMemery.js",
+    "newName": "chakanChucun.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\MiniGame.js",
+    "name": "MiniGame.js",
+    "newName": "XiaoYouXi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\net\\crypto\\lz4.js",
+    "name": "lz4.js",
+    "newName": "lz4.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\net\\protobuf\\protobuf.min.js",
+    "name": "protobuf.min.js",
+    "newName": "protobuf.min.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\net\\protobuf\\protobufGame.js",
+    "name": "protobufGame.js",
+    "newName": "protobufGame.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\PosController.js",
+    "name": "PosController.js",
+    "newName": "WeiZiKongZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\Province.js",
+    "name": "Province.js",
+    "newName": "Province.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\BundleConfig.js",
+    "name": "BundleConfig.js",
+    "newName": "BundlePeiZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\common_component\\List.js",
+    "name": "List.js",
+    "newName": "List.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\common_component\\ListItem.js",
+    "name": "ListItem.js",
+    "newName": "ListItem.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\debug_common\\UI_Debug.js",
+    "name": "UI_Debug.js",
+    "newName": "Panel_CeShi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\debug_common\\UI_Toast.js",
+    "name": "UI_Toast.js",
+    "newName": "Panel_Hint.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\Entry.js",
+    "name": "Entry.js",
+    "newName": "Entry.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\entryui\\LayoutExtent.js",
+    "name": "LayoutExtent.js",
+    "newName": "LayoutExtent.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\entryui\\RichTextLink.js",
+    "name": "RichTextLink.js",
+    "newName": "RichTextLink.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\entryui\\UI_Entry.js",
+    "name": "UI_Entry.js",
+    "newName": "Panel_Enter.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_config\\GameConfig.js",
+    "name": "GameConfig.js",
+    "newName": "YouXiPeiZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\ADManager.js",
+    "name": "ADManager.js",
+    "newName": "GuangGaoGuanLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\AudioManager.js",
+    "name": "AudioManager.js",
+    "newName": "YingXiaoGuanLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\DataManager.js",
+    "name": "DataManager.js",
+    "newName": "DataManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\DebugManager.js",
+    "name": "DebugManager.js",
+    "newName": "CeShiGuanLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\EventManager.js",
+    "name": "EventManager.js",
+    "newName": "EventManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\HttpManager.js",
+    "name": "HttpManager.js",
+    "newName": "HttpManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\LoadingManager.js",
+    "name": "LoadingManager.js",
+    "newName": "JiaZaiGuanLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\LogManager.js",
+    "name": "LogManager.js",
+    "newName": "LogManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\PlatformManager.js",
+    "name": "PlatformManager.js",
+    "newName": "PlatformManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\ScheduleManage.js",
+    "name": "ScheduleManage.js",
+    "newName": "ScheduleManage.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\SingletonManager.js",
+    "name": "SingletonManager.js",
+    "newName": "SingletonManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\game_manager\\TipsManager.js",
+    "name": "TipsManager.js",
+    "newName": "TipsManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\res_sc\\ResKeeper.js",
+    "name": "ResKeeper.js",
+    "newName": "ResKeeper.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\res_sc\\ResLoader.js",
+    "name": "ResLoader.js",
+    "newName": "ResLoader.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\res_sc\\ResUtil.js",
+    "name": "ResUtil.js",
+    "newName": "ResUtil.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\script_utils\\ArrayUtils.js",
+    "name": "ArrayUtils.js",
+    "newName": "ArrayUtils.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\script_utils\\CommonUtils.js",
+    "name": "CommonUtils.js",
+    "newName": "CommonUtils.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\script_utils\\ObjectUtils.js",
+    "name": "ObjectUtils.js",
+    "newName": "ObjectUtils.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\script_utils\\TimeUtils.js",
+    "name": "TimeUtils.js",
+    "newName": "TimeUtils.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\UIConfig_Entry.js",
+    "name": "UIConfig_Entry.js",
+    "newName": "UIConfig_Enter.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\ui_script\\UIBindings.js",
+    "name": "UIBindings.js",
+    "newName": "UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\ui_script\\UIManager.js",
+    "name": "UIManager.js",
+    "newName": "UIManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\ui_script\\UIScene.js",
+    "name": "UIScene.js",
+    "newName": "UIScene.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\ui_script\\UITools.js",
+    "name": "UITools.js",
+    "newName": "UITools.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\framework\\ui_script\\UIView.js",
+    "name": "UIView.js",
+    "newName": "UIView.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\DingbuShipei.js",
+    "name": "DingbuShipei.js",
+    "newName": "ShiPeiDingBu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\Item_GameBagCell_UIBindings.js",
+    "name": "Item_GameBagCell_UIBindings.js",
+    "newName": "DaoJu_YouXiBeiBao_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\LiuHaiShiPei.js",
+    "name": "LiuHaiShiPei.js",
+    "newName": "ShiPeiLiuHai.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\FMButton.js",
+    "name": "FMButton.js",
+    "newName": "FzBtn.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\Item_Setting.js",
+    "name": "Item_Setting.js",
+    "newName": "DaoJu_SheZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\s5\\UI_BingDong.js",
+    "name": "UI_BingDong.js",
+    "newName": "Panel_BingDong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\s5\\UI_JianTou.js",
+    "name": "UI_JianTou.js",
+    "newName": "Panel_Arrow.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\s5\\UI_LiuXue.js",
+    "name": "UI_LiuXue.js",
+    "newName": "Panel_Blond.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\s5\\UI_TestBtn.js",
+    "name": "UI_TestBtn.js",
+    "newName": "Panel_TestBtn.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\s5\\UI_TouchClick.js",
+    "name": "UI_TouchClick.js",
+    "newName": "Panel_DianJI.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\UI_ChiTiaoItem.js",
+    "name": "UI_ChiTiaoItem.js",
+    "newName": "Panel_ChiTiaoDaoju.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\UI_MoveYun.js",
+    "name": "UI_MoveYun.js",
+    "newName": "Panel_YunYiDong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\UI_OpenBox.js",
+    "name": "UI_OpenBox.js",
+    "newName": "Panel_DaKaiHeZi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\UI_Setting.js",
+    "name": "UI_Setting.js",
+    "newName": "Panel_SheZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\UI_ShuoMing.js",
+    "name": "UI_ShuoMing.js",
+    "newName": "Panel_ShuoMing.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\s3\\s4\\UI_Sidebar.js",
+    "name": "UI_Sidebar.js",
+    "newName": "Panel_Sidebar.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\uibase\\Item_Setting_UIBindings.js",
+    "name": "Item_Setting_UIBindings.js",
+    "newName": "DaoJu_SheZhi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\uibase\\UI_OpenBox_UIBindings.js",
+    "name": "UI_OpenBox_UIBindings.js",
+    "newName": "Panel_DaKaiHeZi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\uibase\\UI_Setting_UIBindings.js",
+    "name": "UI_Setting_UIBindings.js",
+    "newName": "Panel_SheZhi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\s2\\uibase\\UI_Sidebar_UIBindings.js",
+    "name": "UI_Sidebar_UIBindings.js",
+    "newName": "Panel_Sidebar_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\CameraShak.js",
+    "name": "CameraShak.js",
+    "newName": "JingTouDouDong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\IpadShiPei.js",
+    "name": "IpadShiPei.js",
+    "newName": "IpadSP.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\LodingGuodu.js",
+    "name": "LodingGuodu.js",
+    "newName": "LodingGuodu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\Module_Fighting_RedPoint.js",
+    "name": "Module_Fighting_RedPoint.js",
+    "newName": "MoKuai_ZhanDou_HongDian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\Module_News_RedPoint.js",
+    "name": "Module_News_RedPoint.js",
+    "newName": "MoKuai_XinWen_HongDian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\AddPowerByTime.js",
+    "name": "AddPowerByTime.js",
+    "newName": "JiaChengDianNengByShiJian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\BossComming.js",
+    "name": "BossComming.js",
+    "newName": "BossJiangLin.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\sc4\\UI_GameLock.js",
+    "name": "UI_GameLock.js",
+    "newName": "Panel_YouXiLock.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_CameraControl.js",
+    "name": "UI_CameraControl.js",
+    "newName": "Panel_JingTouKongZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_GetZaZhong.js",
+    "name": "UI_GetZaZhong.js",
+    "newName": "Panel_HuoQuZhong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_JiXuGame.js",
+    "name": "UI_JiXuGame.js",
+    "newName": "Panel_JiXuYouXi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_ShowBossTip.js",
+    "name": "UI_ShowBossTip.js",
+    "newName": "Panel_ShiBaoJiangLin.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_ShowZaZhong.js",
+    "name": "UI_ShowZaZhong.js",
+    "newName": "Panel_ShiBaoZhong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_TuJian.js",
+    "name": "UI_TuJian.js",
+    "newName": "Panel_TuJian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_TuJianItem.js",
+    "name": "UI_TuJianItem.js",
+    "newName": "Panel_TuJianItem.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc2\\sc3\\UI_UnlockNewEquip.js",
+    "name": "UI_UnlockNewEquip.js",
+    "newName": "Panel_JieKouXinZhuangBei.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\BossComming_UIBindings.js",
+    "name": "BossComming_UIBindings.js",
+    "newName": "BossJiangLin_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Item_Bag_CiTiao_UIBindings.js",
+    "name": "Item_Bag_CiTiao_UIBindings.js",
+    "newName": "DaoJu_YouXiBeiBao_ChiTiao_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Item_Bag_EquipItem_UIBindings.js",
+    "name": "Item_Bag_EquipItem_UIBindings.js",
+    "newName": "DaoJu_YouXiBeiBaoDaoJu_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Item_Icon_UIBindings.js",
+    "name": "Item_Icon_UIBindings.js",
+    "newName": "DaoJu_TuPian_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Item_PaiZi_UIBindings.js",
+    "name": "Item_PaiZi_UIBindings.js",
+    "newName": "DaoJu_PaiZi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Item_Shop_BoxItem_UIBindings.js",
+    "name": "Item_Shop_BoxItem_UIBindings.js",
+    "newName": "DaoJu_ShangCheng_HeZi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Item_Shop_GoldItem_UIBindings.js",
+    "name": "Item_Shop_GoldItem_UIBindings.js",
+    "newName": "DaoJu_ShangCheng_JinBi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Item_Shop_TodayItem_UIBindings.js",
+    "name": "Item_Shop_TodayItem_UIBindings.js",
+    "newName": "DaoJu_ShangCheng_TianTian_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\LodingGuodu_UIBindings.js",
+    "name": "LodingGuodu_UIBindings.js",
+    "newName": "LodingGuodu_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Module_Fighting_UIBindings.js",
+    "name": "Module_Fighting_UIBindings.js",
+    "newName": "MoKuai_ZhanDou_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Module_Shop_UIBindings.js",
+    "name": "Module_Shop_UIBindings.js",
+    "newName": "MoKuai_ShangCheng_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\Module_WareHouse_UIBindings.js",
+    "name": "Module_WareHouse_UIBindings.js",
+    "newName": "MoKuai_CangKu_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_ADCard_UIBindings.js",
+    "name": "UI_ADCard_UIBindings.js",
+    "newName": "UI_ADPian_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_AddPower_UIBindings.js",
+    "name": "UI_AddPower_UIBindings.js",
+    "newName": "Panel_JiaChengDianNeng_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_Bag_UIBindings.js",
+    "name": "UI_Bag_UIBindings.js",
+    "newName": "Panel_YouXiBeiBao_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_BoxIitemInfo_UIBindings.js",
+    "name": "UI_BoxIitemInfo_UIBindings.js",
+    "newName": "Panel_HeZiXiangQing_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_BoxInfo_UIBindings.js",
+    "name": "UI_BoxInfo_UIBindings.js",
+    "newName": "Panel_HeZiXiangQing_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_BoxLevelInfo_UIBindings.js",
+    "name": "UI_BoxLevelInfo_UIBindings.js",
+    "newName": "Panel_HeZiJieDuan_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_BoxUpLevel_UIBindings.js",
+    "name": "UI_BoxUpLevel_UIBindings.js",
+    "newName": "Panel_HeZiShengJi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_BulletMove_UIBindings.js",
+    "name": "UI_BulletMove_UIBindings.js",
+    "newName": "UI_BulletMove_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_ChiTiao_UIBindings.js",
+    "name": "UI_ChiTiao_UIBindings.js",
+    "newName": "Panel_ChiTiao_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_EquipInfo_UIBindings.js",
+    "name": "UI_EquipInfo_UIBindings.js",
+    "newName": "Panel_ZhuangBeiXiangQing_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_GameEquipInfo_UIBindings.js",
+    "name": "UI_GameEquipInfo_UIBindings.js",
+    "newName": "Panel_YouXiZhuangBeiXiangQing_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_GameFail_UIBindings.js",
+    "name": "UI_GameFail_UIBindings.js",
+    "newName": "Panel_YouXiShiBai_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_GameOver_UIBindings.js",
+    "name": "UI_GameOver_UIBindings.js",
+    "newName": "Panel_YouXiGuoCheng_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_GameView_UIBindings.js",
+    "name": "UI_GameView_UIBindings.js",
+    "newName": "Panel_YouXiShiTu_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_GetItems_UIBindings.js",
+    "name": "UI_GetItems_UIBindings.js",
+    "newName": "Panel_HuoQuDaoJu_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_GetZaZhong_UIBindings.js",
+    "name": "UI_GetZaZhong_UIBindings.js",
+    "newName": "Panel_HuoQuZhong_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_Hall_UIBindings.js",
+    "name": "UI_Hall_UIBindings.js",
+    "newName": "Panel_JieMian_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_JiXuGame_UIBindings.js",
+    "name": "UI_JiXuGame_UIBindings.js",
+    "newName": "Panel_JiXuYouXi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_MosterLogic_UIBindings.js",
+    "name": "UI_MosterLogic_UIBindings.js",
+    "newName": "Panel_MoShouGuiLi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_PlaerInfo_UIBindings.js",
+    "name": "UI_PlaerInfo_UIBindings.js",
+    "newName": "Panel_YouXiRenWuShuJu_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_Player_UIBindings.js",
+    "name": "UI_Player_UIBindings.js",
+    "newName": "Panel_YouXiRenWu_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_ShopItemInfo_UIBindings.js",
+    "name": "UI_ShopItemInfo_UIBindings.js",
+    "newName": "Panel_ShangChengXiangQing_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_ShowZaZhong_UIBindings.js",
+    "name": "UI_ShowZaZhong_UIBindings.js",
+    "newName": "Panel_ShiBaoZhong_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_UnlockNewEquip_UIBindings.js",
+    "name": "UI_UnlockNewEquip_UIBindings.js",
+    "newName": "Panel_JieKouXinZhuangBei_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_base\\UI_VideoBuyOne_UIBindings.js",
+    "name": "UI_VideoBuyOne_UIBindings.js",
+    "newName": "Panel_ShiPinMaiYi_UIBindings.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\AutoImagZiTi.js",
+    "name": "AutoImagZiTi.js",
+    "newName": "ZiDongHuaTuPian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\RedPointControl.js",
+    "name": "RedPointControl.js",
+    "newName": "HongDianKongZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\RedPointItem.js",
+    "name": "RedPointItem.js",
+    "newName": "HongDianXiangQing.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_AIControl\\AIControl.js",
+    "name": "AIControl.js",
+    "newName": "AIKongZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_Commp\\UIRotate.js",
+    "name": "UIRotate.js",
+    "newName": "UI_XuanZhuan.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_const\\Const_Common.js",
+    "name": "Const_Common.js",
+    "newName": "ChangShu_GongGong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_Guide\\GuideControl.js",
+    "name": "GuideControl.js",
+    "newName": "GuiDaoKongZhi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_Guide\\GuideMask.js",
+    "name": "GuideMask.js",
+    "newName": "GuiDaoMianBan.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_Guide\\GuideShou.js",
+    "name": "GuideShou.js",
+    "newName": "GuiDaoShou.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_platform\\TTAPI.js",
+    "name": "TTAPI.js",
+    "newName": "TTAPI.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_ypsdk\\OLDNetMag.js",
+    "name": "OLDNetMag.js",
+    "newName": "OLDNetMag.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\sc_ypsdk\\OLDNetStorage.js",
+    "name": "OLDNetStorage.js",
+    "newName": "OLDNetStorage.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_common\\UnLockLight.js",
+    "name": "UnLockLight.js",
+    "newName": "JieKouGuangMiao.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_const\\EvenType.js",
+    "name": "EvenType.js",
+    "newName": "EvenType.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_const\\PlayerDataManager.js",
+    "name": "PlayerDataManager.js",
+    "newName": "YouXiRenWuShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_excel\\BaseExcel.js",
+    "name": "BaseExcel.js",
+    "newName": "BaseExcel.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_excel\\Excel.js",
+    "name": "Excel.js",
+    "newName": "Excel.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_excel\\ExcelData.js",
+    "name": "ExcelData.js",
+    "newName": "ExcelData.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_excel\\ExcelLoader.js",
+    "name": "ExcelLoader.js",
+    "newName": "ExcelLoader.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_excel\\ExcelUtil.js",
+    "name": "ExcelUtil.js",
+    "newName": "ExcelUtil.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\sc_34\\UI_GameOver.js",
+    "name": "UI_GameOver.js",
+    "newName": "Panel_YouXiGuoCheng.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\sc_34\\UI_GameOverItem.js",
+    "name": "UI_GameOverItem.js",
+    "newName": "Panel_YouXiGuoCheng.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\sc_effpre\\UI_BaoZha.js",
+    "name": "UI_BaoZha.js",
+    "newName": "Panel_BaoZha.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\UI_AttackTongJi.js",
+    "name": "UI_AttackTongJi.js",
+    "newName": "Panel_GongJiTongJi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\UI_GameFail.js",
+    "name": "UI_GameFail.js",
+    "newName": "Panel_YouXiShiBai.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\UI_GameOhterNode.js",
+    "name": "UI_GameOhterNode.js",
+    "newName": "Panel_YouXiQiTaJieDian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\UI_GameYinBi.js",
+    "name": "UI_GameYinBi.js",
+    "newName": "Panel_YouXiYinBi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\UI_TongJiCongZhi.js",
+    "name": "UI_TongJiCongZhi.js",
+    "newName": "Panel_JiLuTongJi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_2\\UI_VideoBuyOne.js",
+    "name": "UI_VideoBuyOne.js",
+    "newName": "Panel_ShiPinMaiYi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_const\\Const_Game.js",
+    "name": "Const_Game.js",
+    "newName": "ChangShu_YouXi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_data\\GameBagData.js",
+    "name": "GameBagData.js",
+    "newName": "YouXiBeiBaoShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_data\\GameDataManager.js",
+    "name": "GameDataManager.js",
+    "newName": "YouXiShuJuGuanLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_data\\GameGlobalVariable.js",
+    "name": "GameGlobalVariable.js",
+    "newName": "YouXiQuanJuBianLiang.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_data\\NodePoolMag.js",
+    "name": "NodePoolMag.js",
+    "newName": "NodePoolMag.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_item\\Item_PaiZi.js",
+    "name": "Item_PaiZi.js",
+    "newName": "DaoJu_PaiZi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_bullet\\UI_Bullet.js",
+    "name": "UI_Bullet.js",
+    "newName": "UI_Bullet.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_bullet\\UI_BulletBomb.js",
+    "name": "UI_BulletBomb.js",
+    "newName": "UI_BulletBomb.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_bullet\\UI_BulletBombCollider.js",
+    "name": "UI_BulletBombCollider.js",
+    "newName": "UI_BulletBombCollider.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_bullet\\UI_BulletCollider.js",
+    "name": "UI_BulletCollider.js",
+    "newName": "Panel_ZiDan.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_bullet\\UI_BulletMove.js",
+    "name": "UI_BulletMove.js",
+    "newName": "UI_BulletMove.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_bullet\\UI_BulletMoveCollider.js",
+    "name": "UI_BulletMoveCollider.js",
+    "newName": "UI_BulletMoveCollider.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_effpre\\UI_DuWu.js",
+    "name": "UI_DuWu.js",
+    "newName": "Panel_DuWu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_effpre\\UI_HuDun.js",
+    "name": "UI_HuDun.js",
+    "newName": "Panel_HuDun.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_gamebuff\\BuffMag.js",
+    "name": "BuffMag.js",
+    "newName": "BuffMag.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_hecheng\\item\\Item_CellFatherMove.js",
+    "name": "Item_CellFatherMove.js",
+    "newName": "DaoJu_GeZiFuLeiYiDong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_hecheng\\item\\Item_GameBagCell.js",
+    "name": "Item_GameBagCell.js",
+    "newName": "DaoJu_YouXiBeiBaoGeZi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_hecheng\\item\\Item_GameEquip.js",
+    "name": "Item_GameEquip.js",
+    "newName": "DaoJu_YouXiBeiBao_ZhuangBei.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_hecheng\\item\\QiPaoTween.js",
+    "name": "QiPaoTween.js",
+    "newName": "QiPaoTween.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_hecheng\\logic\\Logic_ChildMoveEvent.js",
+    "name": "Logic_ChildMoveEvent.js",
+    "newName": "GuiLi_ErZiDongYunDong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_hecheng\\logic\\Logic_GetEquip.js",
+    "name": "Logic_GetEquip.js",
+    "newName": "GuiLi_HuoQuZhuangBei.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_hecheng\\UI_Bag.js",
+    "name": "UI_Bag.js",
+    "newName": "Panel_BeiBao.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_item\\UI_SkillItem.js",
+    "name": "UI_SkillItem.js",
+    "newName": "Panel_JiNengDaoJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_moster\\UI_CreateMoster.js",
+    "name": "UI_CreateMoster.js",
+    "newName": "Panel_ChuangJianMoShou.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_moster\\UI_MosterLogic.js",
+    "name": "UI_MosterLogic.js",
+    "newName": "Panel_MoShouGuiLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_moster\\UI_MosterXueTiao.js",
+    "name": "UI_MosterXueTiao.js",
+    "newName": "Panel_MoShouXueTiao.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\sc_player\\UI_Player.js",
+    "name": "UI_Player.js",
+    "newName": "UI_Player.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_AttackInfo.js",
+    "name": "UI_AttackInfo.js",
+    "newName": "Panel_GongJiShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_ChiTiao.js",
+    "name": "UI_ChiTiao.js",
+    "newName": "Panel_ChiTiao.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_GameEquipInfo.js",
+    "name": "UI_GameEquipInfo.js",
+    "newName": "Panel_YouXiBeiBao_ZhuangBei.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_GamePuase.js",
+    "name": "UI_GamePuase.js",
+    "newName": "Panel_YouXiZhuoQi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_GameView.js",
+    "name": "UI_GameView.js",
+    "newName": "Panel_YouXiShiTu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_GameViewMap.js",
+    "name": "UI_GameViewMap.js",
+    "newName": "Panel_YouXiShiTuMap.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_GM.js",
+    "name": "UI_GM.js",
+    "newName": "UI_GM.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_GMTemplate.js",
+    "name": "UI_GMTemplate.js",
+    "newName": "UI_GMTemplate.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_PlaerInfo.js",
+    "name": "UI_PlaerInfo.js",
+    "newName": "Panel_YouXiRenWuShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_ShowAttackInfo.js",
+    "name": "UI_ShowAttackInfo.js",
+    "newName": "Panel_ZhanShiGongJiShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\sc_view\\UI_SkillShow.js",
+    "name": "UI_SkillShow.js",
+    "newName": "Panel_JiNengShuChu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_game\\UIConfig_Game.js",
+    "name": "UIConfig_Game.js",
+    "newName": "UIConfig_YouXi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\HallManager.js",
+    "name": "HallManager.js",
+    "newName": "HallGuanLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\ModuleManager.js",
+    "name": "ModuleManager.js",
+    "newName": "ModuleManager.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_ADCard.js",
+    "name": "UI_ADCard.js",
+    "newName": "UI_ADCard.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_AddPower.js",
+    "name": "UI_AddPower.js",
+    "newName": "Panel_TianJiaGongJi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_BoxIitemInfo.js",
+    "name": "UI_BoxIitemInfo.js",
+    "newName": "Panel_HeZiDaoJuShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_BoxInfo.js",
+    "name": "UI_BoxInfo.js",
+    "newName": "Panel_HeZiShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_BoxLevelInfo.js",
+    "name": "UI_BoxLevelInfo.js",
+    "newName": "Panel_HeZiDengJiShuJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_BoxUpLevel.js",
+    "name": "UI_BoxUpLevel.js",
+    "newName": "Panel_HeZiUpGrade.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_DeBugItem.js",
+    "name": "UI_DeBugItem.js",
+    "newName": "Panel_CeShiDaoJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_EquipInfo.js",
+    "name": "UI_EquipInfo.js",
+    "newName": "Panel_ZhuangBeiXiangQing.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_GameDeBug.js",
+    "name": "UI_GameDeBug.js",
+    "newName": "Panel_YouXiDeBug.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_GetItems.js",
+    "name": "UI_GetItems.js",
+    "newName": "Panel_HuoQuDaoJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_QianDao.js",
+    "name": "UI_QianDao.js",
+    "newName": "Panel_QianDao.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_QianDaoItem.js",
+    "name": "UI_QianDaoItem.js",
+    "newName": "Panel_QianDaoItem.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_ShopItemInfo.js",
+    "name": "UI_ShopItemInfo.js",
+    "newName": "Panel_ShangChengDaoJuXiangQing.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc10\\UI_WuJinTiaoZhan.js",
+    "name": "UI_WuJinTiaoZhan.js",
+    "newName": "Panel_WuJinTiaoZhan.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_const\\Const_Hall.js",
+    "name": "Const_Hall.js",
+    "newName": "Const_Hall.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_const\\HallGlobalVariable.js",
+    "name": "HallGlobalVariable.js",
+    "newName": "HallQuanJuBianLiang.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_item\\BagCiTiaoRichText.js",
+    "name": "BagCiTiaoRichText.js",
+    "newName": "BagChiTiaoRichText.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_item\\Item_Bag_CiTiao.js",
+    "name": "Item_Bag_CiTiao.js",
+    "newName": "DaoJu_YouXiBeiBao_ChiTiao.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_item\\Item_Bag_EquipItem.js",
+    "name": "Item_Bag_EquipItem.js",
+    "newName": "DaoJu_YouXiBeiBaoDaoJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_item\\Item_Icon.js",
+    "name": "Item_Icon.js",
+    "newName": "DaoJu_TuBiao.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_item\\Item_Shop_BoxItem.js",
+    "name": "Item_Shop_BoxItem.js",
+    "newName": "DaoJu_ShangCheng_HeZiDaoJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_item\\Item_Shop_GoldItem.js",
+    "name": "Item_Shop_GoldItem.js",
+    "newName": "DaoJu_ShangCheng_JinBiDaoJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_item\\Item_Shop_TodayItem.js",
+    "name": "Item_Shop_TodayItem.js",
+    "newName": "DaoJu_ShangCheng_XianShangDaoJu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_module\\BaseModule.js",
+    "name": "BaseModule.js",
+    "newName": "BaseModule.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_module\\Module_Fighting.js",
+    "name": "Module_Fighting.js",
+    "newName": "Module_DuiZhan.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_module\\Module_News.js",
+    "name": "Module_News.js",
+    "newName": "Module_XinWen.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_module\\Module_Shop.js",
+    "name": "Module_Shop.js",
+    "newName": "Module_ShangCheng.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_module\\Module_WareHouse.js",
+    "name": "Module_WareHouse.js",
+    "newName": "Module_CangKu.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_view\\UI_BoxAward.js",
+    "name": "UI_BoxAward.js",
+    "newName": "Panel_HeZiDaoJuJiangLi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\sc_view\\UI_Hall.js",
+    "name": "UI_Hall.js",
+    "newName": "Panel_JieMian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\UIConfig_Home.js",
+    "name": "UIConfig_Home.js",
+    "newName": "UIConfig_JieMian.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\s1\\scripts\\sc_home\\UIHomeAddCoin.js",
+    "name": "UIHomeAddCoin.js",
+    "newName": "Panel_TianJiaJinBi.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sc_ii\\sc_dex\\EditorAsset.js",
+    "name": "EditorAsset.js",
+    "newName": "EditorAsset.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sc_ii\\sc_gg\\LabelDefault.js",
+    "name": "LabelDefault.js",
+    "newName": "Label_MoRen.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sdk\\chxSdk\\chx_sdk.v3.min.js",
+    "name": "chx_sdk.v3.min.js",
+    "newName": "chx_sdk.v3.min.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sdk\\chxSdk\\crypto.js",
+    "name": "crypto.js",
+    "newName": "crypto.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sdk\\chxSdk\\md5.js",
+    "name": "md5.js",
+    "newName": "md5.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sdk\\chxSdk\\test.js",
+    "name": "test.js",
+    "newName": "test.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sdk\\chxSdk\\wx_ad.js",
+    "name": "wx_ad.js",
+    "newName": "wx_ad.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sdk\\LoginParam.js",
+    "name": "LoginParam.js",
+    "newName": "LoginParam.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\sdk\\sdkHelper.js",
+    "name": "sdkHelper.js",
+    "newName": "sdkHelper.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\UIAdaptive.js",
+    "name": "UIAdaptive.js",
+    "newName": "Panel_Adaptive.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\UIFuDong.js",
+    "name": "UIFuDong.js",
+    "newName": "Panel_FuDong.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\UIScale.js",
+    "name": "UIScale.js",
+    "newName": "UIScale.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\UI_Loading.js",
+    "name": "UI_Loading.js",
+    "newName": "UI_Loading.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\UserData.js",
+    "name": "UserData.js",
+    "newName": "UserData.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\UVTransform-unpack.js",
+    "name": "UVTransform-unpack.js",
+    "newName": "UVTransform-unpack.js"
+  },
+  {
+    "path": "D:\\git\\a1-client\\A1-client\\assets\\_script\\VisibleController.js",
+    "name": "VisibleController.js",
+    "newName": "VisibleController.js"
+  }
+]
