@@ -18,6 +18,7 @@
     "@types/node": "^18.13.0",
     "axios": "^1.7.9",
     "bootstrap": "^3.4.1",
+    "Buffer": "^0.0.0",
     "comment-json": "^4.2.3",
     "del": "^6.0.0",
     "electron-updater": "^5.3.0",

@@ -1,29 +1,26 @@
-const fs = require("fs");
-const path = require("path");
-const { v4: uuidv4 } = require("uuid");
+const fs = require('fs');
+const path = require('path');
+const { v4: uuidv4 } = require('uuid');
 
 function updateMetaFiles(dir) {
-  fs.readdirSync(dir).forEach((file) => {
+  fs.readdirSync(dir).forEach(file => {
     const fullPath = path.join(dir, file);
 
     if (fs.statSync(fullPath).isDirectory()) {
       updateMetaFiles(fullPath);
-    } else if (file.endsWith(".meta")) {
-      let content = fs.readFileSync(fullPath, "utf-8");
+    } else if (file.endsWith('.meta')) {
+      let content = fs.readFileSync(fullPath, 'utf-8');
       let json = JSON.parse(content);
 
       // 针对图片资源
-      if (
-        json &&
-        (json.importer === "texture" || json.importer === "auto-atlas")
-      ) {
-        const platforms = ["minigame", "default", "android", "ios", "web"];
-        platforms.forEach((platform) => {
+      if (json && (json.importer === 'texture' || json.importer === 'auto-atlas')) {
+        const platforms = ['minigame', 'default', 'android', 'ios', 'web'];
+        platforms.forEach(platform => {
           if (!json.platformSettings) json.platformSettings = {};
 
           json.compressionLevel = 9;
 
-          if (platform === "minigame") {
+          if (platform === 'minigame') {
             json.platformSettings[platform] = {
               formats: [
                 // {
@@ -33,8 +30,8 @@ function updateMetaFiles(dir) {
                 //   quality: "exhaustive",
                 // },
                 {
-                  name: "png",
-                  quality: 50,
+                  name: 'png',
+                  quality: 60,
                 },
               ],
             };
@@ -59,7 +56,8 @@ function updateMetaFiles(dir) {
   });
 }
 
-updateMetaFiles("D:/git/a1-client/A1-client/assets"); // 你项目资源的根路径
+// updateMetaFiles("D:/git/a1-client/A1-client/assets"); // 你项目资源的根路径
+// updateMetaFiles("D:/git/a2-client/A2-client/assets"); // 你项目资源的根路径
 
 // const fs = require("fs");
 // const path = require("path");
@@ -108,90 +106,150 @@ function tryChangeScript(keyword, newName, dirPath) {
       // 如果是文件，则进行处理
       if (stats.isFile()) {
         // 后缀必须是.ts
-        if (filePath.endsWith(".prefab") || filePath.endsWith(".fire")) {
+        if (
+          filePath.endsWith('.prefab') ||
+          filePath.endsWith('.fire') ||
+          filePath.endsWith('.anim') ||
+          filePath.endsWith('.plist') ||
+          filePath.endsWith('.anim') ||
+          filePath.endsWith('.atlas') ||
+          filePath.endsWith('.json') ||
+          filePath.endsWith('.particle') ||
+          filePath.endsWith('.effect') ||
+          filePath.endsWith('.mtl') ||
+          filePath.endsWith('.material') ||
+          filePath.endsWith('.tmx') ||
+          filePath.endsWith('.tsx')
+        ) {
           // 读取对应文本
           await new Promise((resolve2, reject2) => {
             // let data = fs.readFileSync(filePath, "utf-8");
 
-            fs.readFile(filePath, "utf8", async (err, data) => {
+            fs.readFile(filePath, 'utf8', async (err, data) => {
+              // await sleep(100);
               if (err) {
-                console.error("errrr");
+                console.error('errrr');
               }
               if (!data) {
-                data = fs.readFileSync(filePath, "utf8");
+                data = fs.readFileSync(filePath, 'utf8');
               }
               if (!data) {
-                console.error(filePath + "ERROR!!!!!");
-                resolve2(false);
-                return;
+                console.error(filePath + 'ERROR!!!!!');
+                return resolve2(false);
               }
               if (data.indexOf(keyword) === -1) {
-                resolve2(true);
-                return;
+                return resolve2(true);
               }
+              // await sleep(100);
               data = data.replaceAll(keyword, newName);
 
               // 文件写入
-              fs.writeFile(filePath, data, (err) => {
-                if (err) {
-                  consloe.error(err);
-                  resolve2(false);
-                  return;
-                }
-
-                resolve2(true);
-              });
+              await fs.writeFileSync(filePath, data);
+              // await sleep(100);
+              return resolve2(true);
             });
           });
+
+          // console.log('ded');
         }
       } else if (stats.isDirectory()) {
         // 如果是文件夹，则递归调用函数继续读取文件夹内的文件
         await tryChangeScript(keyword, newName, filePath);
       }
     }
-    resolve(true);
+    return resolve(true);
   });
 }
 
+var newuuidToOlduuidMap = {};
+
 // 换uuid
 async function updatePngFiles(dir) {
-  let files = fs.readdirSync(dir);
-  for (let file of files) {
-    const fullPath = path.join(dir, file);
+  return new Promise(async (resolve, reject) => {
+    let files = fs.readdirSync(dir);
+    for (let file of files) {
+      const fullPath = path.join(dir, file);
 
-    if (fs.statSync(fullPath).isDirectory()) {
-      updatePngFiles(fullPath);
-    } else if (file.endsWith(".meta")) {
-      let fileName = file.replace(".png.meta", "");
-      let content = fs.readFileSync(fullPath, "utf-8");
-      let json = JSON.parse(content);
+      if (fs.statSync(fullPath).isDirectory()) {
+        await updatePngFiles(fullPath);
+      } else if (file.endsWith('.meta')) {
+        let fileName = file.replace('.png.meta', '');
+        let content = fs.readFileSync(fullPath, 'utf-8');
+        let json = JSON.parse(content);
 
-      let newUuid = uuidv4();
-      let textUuid = uuidv4();
+        let newUuid = uuidv4();
+        let textUuid = uuidv4();
 
-      // 针对图片资源
-      if (
-        json &&
-        json.importer === "texture" &&
-        json.subMetas &&
-        json.subMetas[fileName]
-      ) {
-        // newUuid才是被外部引用的需要把老的uuid都替换掉
-        let oldUuid = json.subMetas[fileName].uuid;
-        json.subMetas[fileName].uuid = newUuid;
-        json.subMetas[fileName].rawTextureUuid = textUuid;
+        // 针对图片资源
+        if (json && json.importer === 'texture' && json.subMetas && json.subMetas[fileName]) {
+          // newUuid才是被外部引用的需要把老的uuid都替换掉
+          let oldUuid = json.subMetas[fileName].uuid;
+          json.subMetas[fileName].uuid = newUuid;
+          json.subMetas[fileName].rawTextureUuid = textUuid;
 
-        // 遍历全部路径下的场景或者预制体，更改老uuid
-        await tryChangeScript(oldUuid, newUuid, targetDir);
+          newuuidToOlduuidMap[oldUuid] = newUuid;
 
-        fs.writeFileSync(fullPath, JSON.stringify(json, null, 2));
-        console.log(`Updated: ${fullPath}`);
+          await fs.writeFileSync(fullPath, JSON.stringify(json, null, 2));
+          // await sleep(100);
+
+          // 遍历全部路径下的场景或者预制体，更改老uuid
+          await tryChangeScript(oldUuid, newUuid, 'D:/git/a2-client/A2-client/assets');
+          // await sleep(100);
+
+          console.log(`Updated: ${fullPath}`);
+        }
       }
     }
+    resolve(newuuidToOlduuidMap);
+  });
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/**
+ * 检查遗漏的uuid
+ */
+async function checkOmitUuid(n2oMap) {
+  for (let oldUuid in n2oMap) {
+    // 全局搜索文件中是否有olduuid
+    await tryChangeScript(oldUuid, n2oMap[oldUuid], 'D:/git/a2-client/A2-client/assets');
+  }
+
+  await sleep(200);
+
+  for (let oldUuid in n2oMap) {
+    // 全局搜索文件中是否有olduuid
+    await tryChangeScript(oldUuid, n2oMap[oldUuid], 'D:/git/a2-client/A2-client/assets');
+  }
+
+  await sleep(200);
+
+  for (let oldUuid in n2oMap) {
+    // 全局搜索文件中是否有olduuid
+    await tryChangeScript(oldUuid, n2oMap[oldUuid], 'D:/git/a2-client/A2-client/assets');
+  }
+  await sleep(200);
+
+  for (let oldUuid in n2oMap) {
+    // 全局搜索文件中是否有olduuid
+    await tryChangeScript(oldUuid, n2oMap[oldUuid], 'D:/git/a2-client/A2-client/assets');
+  }
+
+  await sleep(200);
+
+  for (let oldUuid in n2oMap) {
+    // 全局搜索文件中是否有olduuid
+    await tryChangeScript(oldUuid, n2oMap[oldUuid], 'D:/git/a2-client/A2-client/assets');
   }
 }
 
 // // 获取当前运行目录
 // const targetDir = "D:/git/a1-client/A1-client/assets";
+// const targetDir = 'D:/git/a2-client/A2-client/assets';
+const targetDir = 'D:/git/a2-client/A2-client/assets';
 
-// updatePngFiles(targetDir);
+updatePngFiles(targetDir).then(n2oMap => {
+  checkOmitUuid(n2oMap);
+});
