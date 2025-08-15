@@ -15,39 +15,48 @@ function updateMetaFiles(dir) {
       // 针对图片资源
       if (json && (json.importer === 'texture' || json.importer === 'auto-atlas')) {
         const platforms = ['minigame', 'default', 'android', 'ios', 'web'];
-        platforms.forEach(platform => {
-          if (!json.platformSettings) json.platformSettings = {};
+        json.platformSettings = {};
+        json.platformSettings['android'] = {
+          formats: [
+            {
+              name: 'astc_8x8',
+              quality: 'exhaustive',
+            },
+            {
+              name: 'etc2_rgb',
+              quality: 'fast',
+            },
+          ],
+        };
 
-          json.compressionLevel = 9;
+        // platforms.forEach(platform => {
+        //   if (!json.platformSettings) json.platformSettings = {};
 
-          if (platform === 'minigame') {
-            json.platformSettings[platform] = {
-              formats: [
-                // {
-                //   // name: "webp",
-                //   // quality: 80,
-                //   name: "astc_8x8",
-                //   quality: "exhaustive",
-                // },
-                {
-                  name: 'png',
-                  quality: 60,
-                },
-              ],
-            };
-          } else {
-            json.platformSettings[platform] = {
-              // formats: [
-              //   {
-              //     name: "webp",
-              //     quality: 80,
-              //     // name: "astc_5x5",
-              //     // quality: "medium",
-              //   },
-              // ],
-            };
-          }
-        });
+        //   json.compressionLevel = 9;
+
+        //   if (platform === 'android') {
+        //     json.platformSettings[platform] = {
+        //       formats: [
+        //         {
+        //           name: 'astc_8x8',
+        //           quality: 'exhaustive',
+        //         },
+        //       ],
+        //     };
+        //   }
+        // else {
+        //   json.platformSettings[platform] = {
+        //     // formats: [
+        //     //   {
+        //     //     name: "webp",
+        //     //     quality: 80,
+        //     //     // name: "astc_5x5",
+        //     //     // quality: "medium",
+        //     //   },
+        //     // ],
+        //   };
+        // }
+        // });
 
         fs.writeFileSync(fullPath, JSON.stringify(json, null, 2));
         console.log(`Updated: ${fullPath}`);
@@ -56,7 +65,7 @@ function updateMetaFiles(dir) {
   });
 }
 
-// updateMetaFiles("D:/git/a1-client/A1-client/assets"); // 你项目资源的根路径
+// updateMetaFiles('D:/git/a1-client/A1-client/assets'); // 你项目资源的根路径
 // updateMetaFiles("D:/git/a2-client/A2-client/assets"); // 你项目资源的根路径
 
 // const fs = require("fs");
@@ -248,8 +257,8 @@ async function checkOmitUuid(n2oMap) {
 // // 获取当前运行目录
 // const targetDir = "D:/git/a1-client/A1-client/assets";
 // const targetDir = 'D:/git/a2-client/A2-client/assets';
-const targetDir = 'D:/git/a2-client/A2-client/assets';
+// const targetDir = 'D:/git/a2-client/A2-client/assets';
 
-updatePngFiles(targetDir).then(n2oMap => {
-  checkOmitUuid(n2oMap);
-});
+// updatePngFiles(targetDir).then(n2oMap => {
+//   checkOmitUuid(n2oMap);
+// });

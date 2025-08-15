@@ -1,0 +1,862 @@
+[
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_0deps\\1.js",
+    "name": "1.js",
+    "newName": "1.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_0deps\\2.js",
+    "name": "2.js",
+    "newName": "2.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_babel_runtime_helpers.js",
+    "name": "_babel_runtime_helpers.js",
+    "newName": "_babel_runtime_helpers.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\adC.js",
+    "name": "adC.js",
+    "newName": "adC.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ali.js",
+    "name": "ali.js",
+    "newName": "ali.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\androidP.js",
+    "name": "androidP.js",
+    "newName": "androidP.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\bagMgr.js",
+    "name": "bagMgr.js",
+    "newName": "bagMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\banner.js",
+    "name": "banner.js",
+    "newName": "banner.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\baseUI.js",
+    "name": "baseUI.js",
+    "newName": "baseUI.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\c.js",
+    "name": "c.js",
+    "newName": "c.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\cfgMgr.js",
+    "name": "cfgMgr.js",
+    "newName": "configMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\challengeMgr.js",
+    "name": "challengeMgr.js",
+    "newName": "challengeMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\chaptBtn.js",
+    "name": "chaptBtn.js",
+    "newName": "chaptBtn.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\chapterItem.js",
+    "name": "chapterItem.js",
+    "newName": "chapterItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\chgBtn.js",
+    "name": "chgBtn.js",
+    "newName": "chgBtn.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\circleItem.js",
+    "name": "circleItem.js",
+    "newName": "circleItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\com.js",
+    "name": "com.js",
+    "newName": "com.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\Creator.js",
+    "name": "Creator.js",
+    "newName": "Creator.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\dateItem.js",
+    "name": "dateItem.js",
+    "newName": "dateItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\dayReward.js",
+    "name": "dayReward.js",
+    "newName": "dayReward.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\dynamicBtnBg.js",
+    "name": "dynamicBtnBg.js",
+    "newName": "dynamicBtnBg.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\env.js",
+    "name": "env.js",
+    "newName": "env.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\errorCode.js",
+    "name": "errorCode.js",
+    "newName": "errorCode.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\evts.js",
+    "name": "evts.js",
+    "newName": "evts.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\festivalMgr.js",
+    "name": "festivalMgr.js",
+    "newName": "festivalMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\game.js",
+    "name": "game.js",
+    "newName": "game.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\global.js",
+    "name": "global.js",
+    "newName": "global.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\grid.js",
+    "name": "grid.js",
+    "newName": "grid.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\guide.js",
+    "name": "guide.js",
+    "newName": "guide.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\h5.js",
+    "name": "h5.js",
+    "newName": "h5.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\head.js",
+    "name": "head.js",
+    "newName": "head.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\heart.js",
+    "name": "heart.js",
+    "newName": "heart.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\hedge.js",
+    "name": "hedge.js",
+    "newName": "hedge.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ice.js",
+    "name": "ice.js",
+    "newName": "ice.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\idx.js",
+    "name": "idx.js",
+    "newName": "idx.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\iosP.js",
+    "name": "iosP.js",
+    "newName": "iosP.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\IServerCfg.js",
+    "name": "IServerCfg.js",
+    "newName": "IServerCfg.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\item.js",
+    "name": "item.js",
+    "newName": "item.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\item1.js",
+    "name": "item1.js",
+    "newName": "item1.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\item2.js",
+    "name": "item2.js",
+    "newName": "item2.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\jigMenu.js",
+    "name": "jigMenu.js",
+    "newName": "jigMenu.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\jigsaw.js",
+    "name": "jigsaw.js",
+    "newName": "jigsaw.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\jigsawMgr.js",
+    "name": "jigsawMgr.js",
+    "newName": "jigsawMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\jumpchapter - 001.js",
+    "name": "jumpchapter - 001.js",
+    "newName": "jumpchapter - 001.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\lang.js",
+    "name": "lang.js",
+    "newName": "lang.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\levelItem.js",
+    "name": "levelItem.js",
+    "newName": "levelItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\levelMgr.js",
+    "name": "levelMgr.js",
+    "newName": "levelMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\LimitedMgr.js",
+    "name": "LimitedMgr.js",
+    "newName": "LimitedMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\loading.js",
+    "name": "loading.js",
+    "newName": "loading.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\loadingAni.js",
+    "name": "loadingAni.js",
+    "newName": "loadingAni.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\mailItem.js",
+    "name": "mailItem.js",
+    "newName": "mailItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\mailMgr.js",
+    "name": "mailMgr.js",
+    "newName": "mailMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\main.js",
+    "name": "main.js",
+    "newName": "main.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\mySafeArea.js",
+    "name": "mySafeArea.js",
+    "newName": "mySafeArea.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\nameFrame.js",
+    "name": "nameFrame.js",
+    "newName": "nameFrame.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\nativeP.js",
+    "name": "nativeP.js",
+    "newName": "nativeP.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\net\\crypto\\lz4.js",
+    "name": "lz4.js",
+    "newName": "lz4.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\net\\protobuf\\protobuf.min.js",
+    "name": "protobuf.min.js",
+    "newName": "protobuf.min.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\net\\protobuf\\protobufGame.js",
+    "name": "protobufGame.js",
+    "newName": "protobufGame.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\newJigMgr.js",
+    "name": "newJigMgr.js",
+    "newName": "newJigMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\NumberUtils.js",
+    "name": "NumberUtils.js",
+    "newName": "NumberUtils.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\packItem.js",
+    "name": "packItem.js",
+    "newName": "packItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\packItem1.js",
+    "name": "packItem1.js",
+    "newName": "packItem1.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\pageView.js",
+    "name": "pageView.js",
+    "newName": "pageView.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\page_challenge.js",
+    "name": "page_challenge.js",
+    "newName": "page_challenge.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\page_jigsaw.js",
+    "name": "page_jigsaw.js",
+    "newName": "page_jigsaw.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\page_level.js",
+    "name": "page_level.js",
+    "newName": "page_level.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\page_race.js",
+    "name": "page_race.js",
+    "newName": "page_race.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\page_shop.js",
+    "name": "page_shop.js",
+    "newName": "page_shop.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\panelMgr.js",
+    "name": "panelMgr.js",
+    "newName": "panelMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\pConst.js",
+    "name": "pConst.js",
+    "newName": "pConst.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\pf.js",
+    "name": "pf.js",
+    "newName": "pf.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\pInfo.js",
+    "name": "pInfo.js",
+    "newName": "pInfo.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\PopupLoading.js",
+    "name": "PopupLoading.js",
+    "newName": "PopupLoading.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\Puzzle.js",
+    "name": "Puzzle.js",
+    "newName": "Puzzle.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\PuzzleCell.js",
+    "name": "PuzzleCell.js",
+    "newName": "PuzzleCell.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\PuzzleLine.js",
+    "name": "PuzzleLine.js",
+    "newName": "PuzzleLine.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\qq.js",
+    "name": "qq.js",
+    "newName": "qq.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\questItem.js",
+    "name": "questItem.js",
+    "newName": "questItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\raceRankItem.js",
+    "name": "raceRankItem.js",
+    "newName": "raceRankItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\random_notice.js",
+    "name": "random_notice.js",
+    "newName": "random_notice.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\rankItem.js",
+    "name": "rankItem.js",
+    "newName": "rankItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\rankMgr.js",
+    "name": "rankMgr.js",
+    "newName": "rankMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\request.js",
+    "name": "request.js",
+    "newName": "request.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\res.js",
+    "name": "res.js",
+    "newName": "res.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\scrollView.js",
+    "name": "scrollView.js",
+    "newName": "scrollView.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sdk\\chxSdk\\chx_sdk.v3.min.js",
+    "name": "chx_sdk.v3.min.js",
+    "newName": "chx_sdk.v3.min.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sdk\\chxSdk\\crypto.js",
+    "name": "crypto.js",
+    "newName": "crypto.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sdk\\chxSdk\\md5.js",
+    "name": "md5.js",
+    "newName": "md5.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sdk\\chxSdk\\test.js",
+    "name": "test.js",
+    "newName": "test.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sdk\\chxSdk\\wx_ad.js",
+    "name": "wx_ad.js",
+    "newName": "wx_ad.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sdk\\LoginParam.js",
+    "name": "LoginParam.js",
+    "newName": "LoginParam.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sdk\\sdkHelper.js",
+    "name": "sdkHelper.js",
+    "newName": "sdkHelper.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\shopItem.js",
+    "name": "shopItem.js",
+    "newName": "shopItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\shopItem1.js",
+    "name": "shopItem1.js",
+    "newName": "shopItem1.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\shopMgr.js",
+    "name": "shopMgr.js",
+    "newName": "shopMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\skinBg.js",
+    "name": "skinBg.js",
+    "newName": "skinBg.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\skinContent.js",
+    "name": "skinContent.js",
+    "newName": "skinContent.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\skinHeadFrame.js",
+    "name": "skinHeadFrame.js",
+    "newName": "skinHeadFrame.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\skinItemBase.js",
+    "name": "skinItemBase.js",
+    "newName": "skinItemBase.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\skinMgr.js",
+    "name": "skinMgr.js",
+    "newName": "skinMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\skinNameFrame.js",
+    "name": "skinNameFrame.js",
+    "newName": "skinNameFrame.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\skinRole.js",
+    "name": "skinRole.js",
+    "newName": "skinRole.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\slider.js",
+    "name": "slider.js",
+    "newName": "slider.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\Solver.js",
+    "name": "Solver.js",
+    "newName": "Solver.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\sound.js",
+    "name": "sound.js",
+    "newName": "sound.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\swBtn.js",
+    "name": "swBtn.js",
+    "newName": "swBtn.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\taskMgr.js",
+    "name": "taskMgr.js",
+    "newName": "taskMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\tb.js",
+    "name": "tb.js",
+    "newName": "tb.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\tE.js",
+    "name": "tE.js",
+    "newName": "tE.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\time.js",
+    "name": "time.js",
+    "newName": "time.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\tipMgr.js",
+    "name": "tipMgr.js",
+    "newName": "tipMgr.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\toast.js",
+    "name": "toast.js",
+    "newName": "toast.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\top.js",
+    "name": "top.js",
+    "newName": "top.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\tt.js",
+    "name": "tt.js",
+    "newName": "tt.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\uData.js",
+    "name": "uData.js",
+    "newName": "uData.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_backReward.js",
+    "name": "ui_backReward.js",
+    "newName": "ui_backReward.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_challengeInfo.js",
+    "name": "ui_challengeInfo.js",
+    "newName": "ui_challengeInfo.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_chapter.js",
+    "name": "ui_chapter.js",
+    "newName": "ui_chapter.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_chapterDone.js",
+    "name": "ui_chapterDone.js",
+    "newName": "ui_chapterDone.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_contentUs.js",
+    "name": "ui_contentUs.js",
+    "newName": "ui_contentUs.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_deskReward.js",
+    "name": "ui_deskReward.js",
+    "newName": "ui_deskReward.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_festival.js",
+    "name": "ui_festival.js",
+    "newName": "ui_festival.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_firstRecharge.js",
+    "name": "ui_firstRecharge.js",
+    "newName": "ui_firstRecharge.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_flyAni.js",
+    "name": "ui_flyAni.js",
+    "newName": "ui_flyAni.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_gameCircle.js",
+    "name": "ui_gameCircle.js",
+    "newName": "ui_gameCircle.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_gamesetlattice.js",
+    "name": "ui_gamesetlattice.js",
+    "newName": "ui_gamesetlattice.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_getHeart.js",
+    "name": "ui_getHeart.js",
+    "newName": "ui_getHeart.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_getItem.js",
+    "name": "ui_getItem.js",
+    "newName": "ui_getItem.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_getRes.js",
+    "name": "ui_getRes.js",
+    "newName": "ui_getRes.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_getReward.js",
+    "name": "ui_getReward.js",
+    "newName": "ui_getReward.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_info.js",
+    "name": "ui_info.js",
+    "newName": "ui_info.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_jigFinish.js",
+    "name": "ui_jigFinish.js",
+    "newName": "ui_jigFinish.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_jigsaw.js",
+    "name": "ui_jigsaw.js",
+    "newName": "ui_jigsaw.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_jigTip.js",
+    "name": "ui_jigTip.js",
+    "newName": "ui_jigTip.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_limitedGift.js",
+    "name": "ui_limitedGift.js",
+    "newName": "ui_limitedGift.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_luckyGift.js",
+    "name": "ui_luckyGift.js",
+    "newName": "ui_luckyGift.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_lvInfo.js",
+    "name": "ui_lvInfo.js",
+    "newName": "ui_lvInfo.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_mail.js",
+    "name": "ui_mail.js",
+    "newName": "ui_mail.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_mailInfo.js",
+    "name": "ui_mailInfo.js",
+    "newName": "ui_mailInfo.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_newGift.js",
+    "name": "ui_newGift.js",
+    "newName": "ui_newGift.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_playTip.js",
+    "name": "ui_playTip.js",
+    "newName": "ui_playTip.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_preReward.js",
+    "name": "ui_preReward.js",
+    "newName": "ui_preReward.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_privacy.js",
+    "name": "ui_privacy.js",
+    "newName": "ui_privacy.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_quest.js",
+    "name": "ui_quest.js",
+    "newName": "ui_quest.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_raceTip.js",
+    "name": "ui_raceTip.js",
+    "newName": "ui_raceTip.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_rank.js",
+    "name": "ui_rank.js",
+    "newName": "ui_rank.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_rankOpen.js",
+    "name": "ui_rankOpen.js",
+    "newName": "ui_rankOpen.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_record.js",
+    "name": "ui_record.js",
+    "newName": "ui_record.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_reiGift.js",
+    "name": "ui_reiGift.js",
+    "newName": "ui_reiGift.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_rePlay.js",
+    "name": "ui_rePlay.js",
+    "newName": "ui_rePlay.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_rePlayRace.js",
+    "name": "ui_rePlayRace.js",
+    "newName": "ui_rePlayRace.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_save.js",
+    "name": "ui_save.js",
+    "newName": "ui_save.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_saveConfirm.js",
+    "name": "ui_saveConfirm.js",
+    "newName": "ui_saveConfirm.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_saveRestore.js",
+    "name": "ui_saveRestore.js",
+    "newName": "ui_saveRestore.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_selectMode.js",
+    "name": "ui_selectMode.js",
+    "newName": "ui_selectMode.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_set.js",
+    "name": "ui_set.js",
+    "newName": "ui_set.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_sevenDay.js",
+    "name": "ui_sevenDay.js",
+    "newName": "ui_sevenDay.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_shopPack.js",
+    "name": "ui_shopPack.js",
+    "newName": "ui_shopPack.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_sidebar.js",
+    "name": "ui_sidebar.js",
+    "newName": "ui_sidebar.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_skin.js",
+    "name": "ui_skin.js",
+    "newName": "ui_skin.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_skinInfo.js",
+    "name": "ui_skinInfo.js",
+    "newName": "ui_skinInfo.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_tip.js",
+    "name": "ui_tip.js",
+    "newName": "ui_tip.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\ui_userInfo.js",
+    "name": "ui_userInfo.js",
+    "newName": "ui_userInfo.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\Utility.js",
+    "name": "Utility.js",
+    "newName": "Utility.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\uvAni.js",
+    "name": "uvAni.js",
+    "newName": "uvAni.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\vb.js",
+    "name": "vb.js",
+    "newName": "vb.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\veBtn.js",
+    "name": "veBtn.js",
+    "newName": "veBtn.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\vivo.js",
+    "name": "vivo.js",
+    "newName": "vivo.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\worm.js",
+    "name": "worm.js",
+    "newName": "worm.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\wormSp.js",
+    "name": "wormSp.js",
+    "newName": "wormSp.js"
+  },
+  {
+    "path": "D:\\git\\a2-client\\A2-client\\assets\\_script\\wx.js",
+    "name": "wx.js",
+    "newName": "wx.js"
+  }
+]

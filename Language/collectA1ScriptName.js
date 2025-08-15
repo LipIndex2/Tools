@@ -33,19 +33,19 @@
 
 ////////////////////////////////
 
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
 function getAllJsFiles(dirPath, fileList = []) {
   const files = fs.readdirSync(dirPath);
 
-  files.forEach((file) => {
+  files.forEach(file => {
     const filePath = path.join(dirPath, file);
     const stat = fs.statSync(filePath);
 
     if (stat.isDirectory()) {
       getAllJsFiles(filePath, fileList); // 递归子目录
-    } else if (path.extname(file) === ".js") {
+    } else if (path.extname(file) === '.js') {
       fileList.push({
         path: filePath,
         name: file,
@@ -59,7 +59,7 @@ function getAllJsFiles(dirPath, fileList = []) {
 
 // 读取关卡数据
 function readToJson(path) {
-  const jsonString = fs.readFileSync(path, "utf8");
+  const jsonString = fs.readFileSync(path, 'utf8');
   if (jsonString.charCodeAt(0) === 0xfeff) {
     // Remove BOM from the jsonString
     return JSON.parse(jsonString.slice(1));
@@ -70,32 +70,32 @@ function readToJson(path) {
 function readyNameList(data) {
   return new Promise((resolve, reject) => {
     // 读取指定路径的文件，和meta文件，改名称
-    const filePath = data.path.replace(data.name, "");
+    const filePath = data.path.replace(data.name, '');
 
-    let name = data.name.replace(".js", "");
-    let newName = data.newName.replace(".js", "");
+    let name = data.name.replace('.js', '');
+    let newName = data.newName.replace('.js', '');
     if (name === newName) {
       resolve();
       return;
     }
 
-    let jsPath = path.join(filePath, name + ".js");
-    let newJsPath = path.join(filePath, newName + ".js");
-    let metaPath = path.join(filePath, name + ".js.meta");
-    let newMetaPath = path.join(filePath, newName + ".js.meta");
+    let jsPath = path.join(filePath, name + '.js');
+    let newJsPath = path.join(filePath, newName + '.js');
+    let metaPath = path.join(filePath, name + '.js.meta');
+    let newMetaPath = path.join(filePath, newName + '.js.meta');
 
     // 改成新的文件名
-    fs.rename(jsPath, newJsPath, (err) => {
+    fs.rename(jsPath, newJsPath, err => {
       if (err) {
-        console.error("重命名失败:", err);
+        console.error('重命名失败:', err);
         resolve();
         return;
       }
-      console.log("文件重命名成功");
+      console.log('文件重命名成功');
 
-      fs.rename(metaPath, newMetaPath, async (err) => {
+      fs.rename(metaPath, newMetaPath, async err => {
         if (err) {
-          console.error("重命名失败:", err);
+          console.error('重命名失败:', err);
           resolve();
           return;
         }
@@ -103,7 +103,7 @@ function readyNameList(data) {
         // 搜索所有的ts和js脚本里面如果发现有同名的脚本名，直接替换
         await tryChangeScript(name, newName, targetDir).then(() => {
           resolve();
-          console.log("文件重命名成功", name + "--" + newName);
+          console.log('文件重命名成功', name + '--' + newName);
         });
       });
     });
@@ -122,39 +122,32 @@ function tryChangeScript(keyword, newName, dirPath) {
       // 如果是文件，则进行处理
       if (stats.isFile()) {
         if (
-          filePath.indexOf("_script") === -1 &&
-          (filePath.endsWith(".ts") || filePath.endsWith(".js"))
+          filePath.indexOf('_script') === -1 &&
+          (filePath.endsWith('.ts') || filePath.endsWith('.js'))
         ) {
           // 跳过
           continue;
         }
 
         // 后缀必须是.ts
-        if (
-          filePath.endsWith(".ts") ||
-          filePath.endsWith(".js") ||
-          filePath.endsWith(".prefab")
-        ) {
+        if (filePath.endsWith('.ts') || filePath.endsWith('.js') || filePath.endsWith('.prefab')) {
           // 读取对应文本
           await new Promise((resolve2, reject2) => {
-            let cb = (coding) => {
+            let cb = coding => {
               fs.readFile(filePath, coding, async (err, data) => {
                 if (err) {
                   consloe.error(err);
 
                   // 如果当前是utf16le格式，那就不用再试了
-                  if (coding === "utf8") {
-                    cb("utf16le");
+                  if (coding === 'utf8') {
+                    cb('utf16le');
                     return;
                   } else {
                     return resolve2(false);
                   }
                 }
 
-                if (
-                  filePath.endsWith(".prefab") &&
-                  filePath.indexOf("_UIBindings")
-                ) {
+                if (filePath.endsWith('.prefab') && filePath.indexOf('_UIBindings')) {
                   data = data.replaceAll(keyword, newName);
                 } else {
                   // 替换文件中的同名文件名称
@@ -162,7 +155,7 @@ function tryChangeScript(keyword, newName, dirPath) {
                 }
 
                 // 文件写入
-                fs.writeFile(filePath, data, (err) => {
+                fs.writeFile(filePath, data, err => {
                   if (err) {
                     consloe.error(err);
                     resolve2(false);
@@ -175,7 +168,7 @@ function tryChangeScript(keyword, newName, dirPath) {
             };
 
             // 先试试utf8
-            cb("utf8");
+            cb('utf8');
           });
         }
       } else if (stats.isDirectory()) {
@@ -195,18 +188,18 @@ async function changeName(dirPath) {
 }
 
 // 获取当前运行目录
-const targetDir = "D:/git/a1-client/A1-client/assets";
+const targetDir = 'D:/git/a2-client/A2-client/assets';
 
-changeName(__dirname + "\\name.json");
+changeName(__dirname + '\\A2_name.json');
 
-// 获取所有 JS 文件信息对象
+// //获取所有 JS 文件信息对象
 // const jsFileInfoList = getAllJsFiles(targetDir);
 
 // // 写入 name.json 到当前目录
 // fs.writeFileSync(
-//   path.join(__dirname, "name.json"),
+//   path.join(__dirname, 'A2_name.json'),
 //   JSON.stringify(jsFileInfoList, null, 2),
-//   "utf-8"
+//   'utf-8'
 // );
 
 // console.log(`✅ 成功写入 ${jsFileInfoList.length} 条文件信息到 name.json`);
