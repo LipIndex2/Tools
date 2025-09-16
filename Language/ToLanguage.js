@@ -377,14 +377,14 @@ function tryChangeExcel(dirPath, outResult = {}) {
 
                   // 如果有这个中文备注，直接赋值
                   let perfixC = '第' + index + '行的' + chineseSubfix;
-                  let indexFind = sheetData[1].indexOf(perfixC);
+                  let indexFind = worksheet.getSheetValues()[2].indexOf(perfixC);
                   let cIndex;
                   if (indexFind !== -1) {
                     // 不用加标题
                     cIndex = indexFind;
                   } else {
-                    worksheet.getCell(1, sheetData[2].length).value = perfixC;
-                    cIndex = sheetData[2].length;
+                    worksheet.getCell(2, worksheet.getSheetValues()[2].length).value = perfixC;
+                    cIndex = worksheet.getSheetValues()[2].length - 1;
                   }
 
                   // 发现了标题为Language的列
@@ -874,13 +874,13 @@ function run(callBack) {
             // 读取文件，写入文本
             var collectScroptResult = {};
 
-            // // 转换脚本
-            // tryChangeScript(pathZ, collectScroptResult).then(async () => {
-            //   console.log('Script 新收集的文本：' + JSON.stringify(collectScroptResult), 'blue');
-            //   await wirteToLanguage('STL_', collectScroptResult, true);
-            //   callBack && callBack();
-            //   callBack = null;
-            // });
+            // 转换脚本
+            tryChangeScript(pathZ, collectScroptResult).then(async () => {
+              console.log('Script 新收集的文本：' + JSON.stringify(collectScroptResult), 'blue');
+              await wirteToLanguage('STL_', collectScroptResult, true);
+              callBack && callBack();
+              callBack = null;
+            });
           });
         });
       })
