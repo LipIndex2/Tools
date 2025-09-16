@@ -358,83 +358,90 @@ function tryChangeExcel(dirPath, outResult = {}) {
             return reject2(true);
           }
 
+          let fpath = filePath;
           workbook.xlsx
-            .readFile(filePath)
+            .readFile(fpath)
             .then(() => {
-              const worksheet = workbook.getWorksheet(1);
-
-              const sheetData = worksheet.getSheetValues();
               let isChange = false;
-              let chineseIndex = 0;
-              const chineseSubfix = '中文备注';
 
-              // 如果第4个有Language标注
-              for (let index = 0; index < sheetData[2 + 1].length - 1; index++) {
-                if (!sheetData[1]) continue;
-                let title = sheetData[1][index + 1];
-                if (title.indexOf('LANGUAGE_') !== -1) {
-                  chineseIndex += 1;
+              let lens = workbook.worksheets.length;
+              for (let idxSheet = 1; idxSheet <= lens; idxSheet++) {
+                const worksheet = workbook.getWorksheet(idxSheet);
+                if (!worksheet) continue;
 
-                  // 如果有这个中文备注，直接赋值
-                  let perfixC = '第' + index + '行的' + chineseSubfix;
-                  let indexFind = worksheet.getSheetValues()[2].indexOf(perfixC);
-                  let cIndex;
-                  if (indexFind !== -1) {
-                    // 不用加标题
-                    cIndex = indexFind;
-                  } else {
-                    worksheet.getCell(2, worksheet.getSheetValues()[2].length).value = perfixC;
-                    cIndex = worksheet.getSheetValues()[2].length - 1;
-                  }
+                const sheetData = worksheet.getSheetValues();
+                let chineseIndex = 0;
+                const chineseSubfix = '中文备注';
 
-                  // 发现了标题为Language的列
-                  for (let line = 3; line < sheetData.length - 1; line++) {
-                    if (!sheetData[line + 1] || !sheetData[line + 1][1]) continue;
-                    let content = sheetData[line + 1][index + 1];
+                // 如果第4个有Language标注
+                for (let index = 0; index < sheetData[2 + 1].length - 1; index++) {
+                  if (!sheetData[1] || !sheetData[1][1] || sheetData[1][1].indexOf('#') === -1)
+                    continue;
+                  let title = sheetData[1][index + 1];
+                  if (title && title.indexOf('LANGUAGE_') !== -1) {
+                    chineseIndex += 1;
 
-                    // 备注
-                    let remark;
-
-                    // 如果是中文
-                    if (hasChineseCharacters(content)) {
-                      // 如果表中有这个一样的内容，直接延用之前的内容
-                      let uiKey = '';
-                      let result = checkLanguage(content);
-                      remark = content;
-                      if (result) {
-                        uiKey = result.key;
-                        remark = result.value;
-                      } else {
-                        let isContentChange = false;
-                        const realContent = sheetData[line + 1][index + 1].replace(/\r\n/g, '\n');
-                        for (let id in outResult) {
-                          if (outResult[id] === realContent) {
-                            isContentChange = true;
-                            uiKey = 'ETL_' + id;
-                          }
-                        }
-
-                        // 没有改变
-                        if (!isContentChange) {
-                          // 记录内容，更改内容
-                          let nextId = genLocalizeId();
-                          uiKey = 'ETL_' + nextId;
-                          outResult[nextId] = realContent;
-                        }
-                      }
-                      worksheet.getCell(line + 1, index + 1).value = uiKey;
-                      isChange = true;
+                    // 如果有这个中文备注，直接赋值
+                    let perfixC = '第' + index + '行的' + chineseSubfix;
+                    let indexFind = worksheet.getSheetValues()[2].indexOf(perfixC);
+                    let cIndex;
+                    if (indexFind !== -1) {
+                      // 不用加标题
+                      cIndex = indexFind;
                     } else {
-                      let resultByKey = checkLanguageKey(content);
-                      if (resultByKey) {
-                        remark = resultByKey.value;
-                      }
+                      worksheet.getCell(2, worksheet.getSheetValues()[2].length).value = perfixC;
+                      cIndex = worksheet.getSheetValues()[2].length - 1;
                     }
 
-                    // 添加备注
-                    if (remark) {
-                      isChange = true;
-                      worksheet.getCell(line + 1, cIndex).value = remark;
+                    // 发现了标题为Language的列
+                    for (let line = 3; line < sheetData.length - 1; line++) {
+                      if (!sheetData[line + 1] || !sheetData[line + 1][1]) continue;
+                      let content = sheetData[line + 1][index + 1];
+
+                      // 备注
+                      let remark;
+
+                      // 如果是中文
+                      if (hasChineseCharacters(content)) {
+                        // 如果表中有这个一样的内容，直接延用之前的内容
+                        let uiKey = '';
+                        let result = checkLanguage(content);
+                        remark = content;
+                        if (result) {
+                          uiKey = result.key;
+                          remark = result.value;
+                        } else {
+                          let isContentChange = false;
+                          const realContent = sheetData[line + 1][index + 1].replace(/\r\n/g, '\n');
+                          for (let id in outResult) {
+                            if (outResult[id] === realContent) {
+                              isContentChange = true;
+                              uiKey = 'ETL_' + id;
+                            }
+                          }
+
+                          // 没有改变
+                          if (!isContentChange) {
+                            // 记录内容，更改内容
+                            let nextId = genLocalizeId();
+                            uiKey = 'ETL_' + nextId;
+                            outResult[nextId] = realContent;
+                          }
+                        }
+                        worksheet.getCell(line + 1, index + 1).value = uiKey;
+                        isChange = true;
+                      } else {
+                        let resultByKey = checkLanguageKey(content);
+                        if (resultByKey) {
+                          remark = resultByKey.value;
+                        }
+                      }
+
+                      // 添加备注
+                      if (remark) {
+                        isChange = true;
+                        worksheet.getCell(line + 1, cIndex).value = remark;
+                      }
                     }
                   }
                 }
@@ -442,8 +449,8 @@ function tryChangeExcel(dirPath, outResult = {}) {
 
               // 改变了就写入
               if (isChange) {
-                console.log(filePath);
-                workbook.xlsx.writeFile(filePath).then(() => {
+                console.log(fpath);
+                workbook.xlsx.writeFile(fpath).then(() => {
                   resolve2(true);
                 });
               } else {
@@ -789,6 +796,61 @@ async function readLanguage() {
   });
 }
 
+// {"UTL_1": {id:1 , key: "UTL_1", value: "你好", value_e: "Hello"}}
+let langCfgInfo = {};
+
+/**
+ * 多语言配置转换为ts文件配置
+ * @returns
+ */
+async function languageToTs() {
+  return new Promise((resolve, reject) => {
+    workbook.xlsx
+      .readFile(pahtExcel)
+      .then(() => {
+        // 读取第一个工作表
+        const worksheet = workbook.getWorksheet(1);
+
+        // 代码中编号对应的内容替换表中的
+        const sheetValues = worksheet.getSheetValues();
+
+        for (let key of sheetValues[2]) {
+          langCfgInfo[key];
+        }
+
+        sheetValues.forEach((context, index) => {
+          if (typeof context[1] === 'number') {
+            if (!langCfgInfo[context[2]]) {
+              langCfgInfo[context[2]] = {};
+            }
+
+            for (let i = 0; i < sheetValues[2].length; i++) {
+              let key = sheetValues[2][i];
+              let value = context[i];
+              langCfgInfo[context[2]][key] = value;
+            }
+          }
+        });
+
+        // 写入指定路径
+        let tsPath = 'D:/git/a3-client/A3-Client/assets/scripts/ui/Battle/Manager/Lang.ts';
+
+        const tsCode = `
+        export const LANG = ${JSON.stringify(langCfgInfo, null, 2)} as const;
+        `;
+
+        fs.writeFileSync(tsPath, tsCode);
+
+        resolve(true);
+      })
+      .catch(err => {
+        // 处理读取文件时出现的错误
+        console.error('Error reading file 1:' + err);
+        resolve(false);
+      });
+  });
+}
+
 // 多语言表中是否有当前内容一致的
 function checkLanguage(content) {
   // 如果这个里面有\r\n，就替换成\n
@@ -1048,5 +1110,6 @@ module.exports = {
 //     });
 
 run(() => {
+  languageToTs();
   console.log('完成!!!!!!!!!!!!');
 });
