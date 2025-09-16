@@ -370,26 +370,26 @@ function tryChangeExcel(dirPath, outResult = {}) {
 
               // 如果第4个有Language标注
               for (let index = 0; index < sheetData[2 + 1].length - 1; index++) {
-                if (!sheetData[3 + 1]) continue;
-                let title = sheetData[3 + 1][index + 1];
-                if (title === 'Language') {
+                if (!sheetData[1]) continue;
+                let title = sheetData[1][index + 1];
+                if (title.indexOf('LANGUAGE_') !== -1) {
                   chineseIndex += 1;
 
                   // 如果有这个中文备注，直接赋值
                   let perfixC = '第' + index + '行的' + chineseSubfix;
-                  let indexFind = sheetData[2 + 1].indexOf(perfixC);
+                  let indexFind = sheetData[1].indexOf(perfixC);
                   let cIndex;
                   if (indexFind !== -1) {
                     // 不用加标题
                     cIndex = indexFind;
                   } else {
-                    worksheet.getCell(2 + 1, sheetData[2].length).value = perfixC;
+                    worksheet.getCell(1, sheetData[2].length).value = perfixC;
                     cIndex = sheetData[2].length;
                   }
 
                   // 发现了标题为Language的列
-                  for (let line = 4; line < sheetData.length - 1; line++) {
-                    if (!sheetData[line + 1]) continue;
+                  for (let line = 3; line < sheetData.length - 1; line++) {
+                    if (!sheetData[line + 1] || !sheetData[line + 1][1]) continue;
                     let content = sheetData[line + 1][index + 1];
 
                     // 备注
@@ -862,26 +862,26 @@ function run(callBack) {
 
           await readLanguage();
 
-          // var collectExcelLanguage = {};
-          // tryChangeExcel(pathAllExcel, collectExcelLanguage).then(async () => {
-          //   console.log('Excel 新收集的文本：' + JSON.stringify(collectExcelLanguage), 'blue');
+          var collectExcelLanguage = {};
+          tryChangeExcel(pathAllExcel, collectExcelLanguage).then(async () => {
+            console.log('Excel 新收集的文本：' + JSON.stringify(collectExcelLanguage), 'blue');
 
-          //   // 写入Language_多语言表.xlsx
-          //   await wirteToLanguage('ETL_', collectExcelLanguage);
+            // 写入Language_多语言表.xlsx
+            await wirteToLanguage('ETL_', collectExcelLanguage);
 
-          //   await readLanguage();
+            await readLanguage();
 
-          //   // 读取文件，写入文本
-          //   var collectScroptResult = {};
+            // 读取文件，写入文本
+            var collectScroptResult = {};
 
-          //   // 转换脚本
-          //   tryChangeScript(pathZ, collectScroptResult).then(async () => {
-          //     console.log('Script 新收集的文本：' + JSON.stringify(collectScroptResult), 'blue');
-          //     await wirteToLanguage('STL_', collectScroptResult, true);
-          //     callBack && callBack();
-          //     callBack = null;
-          //   });
-          // });
+            // // 转换脚本
+            // tryChangeScript(pathZ, collectScroptResult).then(async () => {
+            //   console.log('Script 新收集的文本：' + JSON.stringify(collectScroptResult), 'blue');
+            //   await wirteToLanguage('STL_', collectScroptResult, true);
+            //   callBack && callBack();
+            //   callBack = null;
+            // });
+          });
         });
       })
       .catch(err => {
