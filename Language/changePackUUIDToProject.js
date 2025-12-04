@@ -128,7 +128,8 @@ function tryChangeScript(keyword, newName, dirPath) {
           filePath.endsWith('.mtl') ||
           filePath.endsWith('.material') ||
           filePath.endsWith('.tmx') ||
-          filePath.endsWith('.tsx')
+          filePath.endsWith('.tsx') ||
+          filePath.endsWith('.scene')
         ) {
           // 读取对应文本
           await new Promise((resolve2, reject2) => {
@@ -256,11 +257,7 @@ async function changePngUuidToAtlasUuid(dir) {
                   const oldUuid = pjson.subMetas[selectKey].uuid;
 
                   // 把所有的旧uuid替换成图集的新uuid
-                  await tryChangeScript(
-                    oldUuid,
-                    newInfo.uuid,
-                    'D:\\git\\a3-client\\A3-Client\\assets'
-                  );
+                  await tryChangeScript(oldUuid, newInfo.uuid, 'D:\\git\\a4\\A4-Client\\assets');
 
                   // 删除原来图片资源
                   fs.unlinkSync(path.join(fullPath, pngMetaFile.replace('.meta', '')));
@@ -340,6 +337,6 @@ async function checkOmitUuid(n2oMap) {
 //   checkOmitUuid(n2oMap);
 // });
 
-changePngUuidToAtlasUuid('D:\\git\\a3-client\\A3-Client\\assets').then(() => {
+changePngUuidToAtlasUuid('D:\\git\\a4\\A4-Client\\assets').then(() => {
   console.log('done');
 });

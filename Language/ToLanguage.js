@@ -8,7 +8,6 @@
  */
 
 var fs = require('fs');
-var flock = require('proper-lockfile');
 var path = require('path');
 const { isString } = require('util');
 const ExcelJS = require('exceljs');
@@ -141,18 +140,15 @@ function tryChangeScript(dirPath, outResult = {}) {
                   let resultCfg = checkLanguage(result[0]);
                   if (resultCfg) {
                     // 如果代码中有"LanUtil.getLanguage(" 这种的， 直接替换 单双引号都要替换
-                    data = data.replace(
-                      `${prefix}(\"` + result[0] + '")',
-                      `${prefix}(\"` + resultCfg.key + '")'
-                    );
-                    data = data.replace(
-                      `${prefix}(\'` + result[0] + "')",
-                      `${prefix}(\"` + resultCfg.key + '")'
-                    );
-                    data = data.replace(
-                      `${prefix}(\`` + result[0] + '`)',
-                      `${prefix}(\"` + resultCfg.key + '")'
-                    );
+                    data = data.replace(needChangeContext, `${prefix}(\"` + resultCfg.key + '")');
+                    // data = data.replace(
+                    //   `${prefix}(\'` + result[0] + "')",
+                    //   `${prefix}(\"` + resultCfg.key + '")'
+                    // );
+                    // data = data.replace(
+                    //   `${prefix}(\`` + result[0] + '`)',
+                    //   `${prefix}(\"` + resultCfg.key + '")'
+                    // );
                   } else {
                     let isChange = false;
                     result[0] = result[0].replace(/\r\n/g, '\n');
@@ -173,14 +169,11 @@ function tryChangeScript(dirPath, outResult = {}) {
                     }
 
                     // 如果代码中有"LanUtil.getLanguage(" 这种的， 直接替换 单双引号都要替换
-                    data = data.replace(
-                      `${prefix}(\"` + result[0] + '")',
-                      `${prefix}(\"` + 'STL_' + nextId + '")'
-                    );
-                    data = data.replace(
-                      `${prefix}(\"` + result[0] + "')",
-                      `${prefix}(\"` + 'STL_' + nextId + '")'
-                    );
+                    data = data.replace(needChangeContext, `${prefix}(\"` + 'STL_' + nextId + '")');
+                    // data = data.replace(
+                    //   `${prefix}(\"` + result[0] + "')",
+                    //   `${prefix}(\"` + 'STL_' + nextId + '")'
+                    // );
                   }
                 }
 
@@ -226,7 +219,7 @@ function tryChangeUI(dirPath, outResult = {}) {
       // 如果是文件，则进行处理
       if (stats.isFile()) {
         // 后缀必须是.ui
-        if (!filePath.endsWith('.prefab')) continue;
+        if (!filePath.endsWith('.prefab') && !filePath.endsWith('.scene')) continue;
         // 读取对应文本
         await new Promise((resolve2, reject2) => {
           let cb = coding => {
@@ -364,9 +357,7 @@ function tryChangeExcel(dirPath, outResult = {}) {
             .then(() => {
               let isChange = false;
 
-              let lens = workbook.worksheets.length;
-              for (let idxSheet = 1; idxSheet <= lens; idxSheet++) {
-                const worksheet = workbook.getWorksheet(idxSheet);
+              for (let worksheet of workbook.worksheets) {
                 if (!worksheet) continue;
 
                 const sheetData = worksheet.getSheetValues();
