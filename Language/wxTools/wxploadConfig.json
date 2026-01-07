@@ -1,0 +1,14 @@
+{
+  "cocosEnginePath": "C:/ProgramData/cocos/editors/Creator/3.8.6/CocosCreator.exe",
+  "projectPath": "D:/git/a4/A4-Client",
+  "libVersion": "3.12.1",
+  "gits": {
+    "release/szmw2.0": {
+      "appid": "wxa2dc49ebd2b53cb8",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "2.0.2",
+      "privateKeyPath": "D:/git/Tools/Language/wxTools/privateKeys/private.wxa2dc49ebd2b53cb8.key"
+    }
+  }
+}

@@ -16,6 +16,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "@types/node": "^18.13.0",
+    "archiver": "^7.0.1",
     "axios": "^1.7.9",
     "bootstrap": "^3.4.1",
     "Buffer": "^0.0.0",
@@ -38,6 +39,7 @@
     "nodemon": "^3.1.0",
     "proper-lockfile": "^4.1.2",
     "sass": "^1.58.0",
+    "simple-git": "^3.30.0",
     "sinon": "^15.0.1",
     "typescript": "^4.9.5",
     "update-electron-app": "^3.0.0",
@@ -58,6 +60,7 @@
     "chai": "^4.3.7",
     "electron": "^33.2.0",
     "electron-builder": "^24.13.3",
+    "miniprogram-ci": "^2.1.26",
     "mocha": "^10.2.0",
     "vite": "^4.0.0",
     "vite-plugin-electron-renderer": "^0.12.1"
