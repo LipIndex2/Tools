@@ -139,7 +139,7 @@ function removeDirAsync(dirPath) {
 }
 // =================================================================logic=================================================================================
 
-const branch = 'release/szmw2.0'; // process.argv[2];
+const branch = process.argv[2];
 
 // 读取当前选择的配置
 const wxploadConfig = readToJson(path.join(__dirname, 'wxploadConfig.json'));

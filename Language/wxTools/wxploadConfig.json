@@ -8,7 +8,91 @@
       "version": "2.0.11",
       "cdnCode": "td-szmw-wechat-prod",
       "cdnVersion": "2.0.2",
-      "privateKeyPath": "D:/git/Tools/Language/wxTools/privateKeys/private.wxa2dc49ebd2b53cb8.key"
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wxa2dc49ebd2b53cb8.key"
+    },
+    "release/thbkm2.0": {
+      "appid": "wxb243a2a61bfc3111",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.19",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wxb243a2a61bfc3111.key"
+    },
+    "release/kjdql2.0": {
+      "appid": "wxb8b069be7ba746f5",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.20",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wxb8b069be7ba746f5.key"
+    },
+    "release/kjyzc2.0": {
+      "appid": "wx2e78837bd6f18f96",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.24",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wx2e78837bd6f18f96.key"
+    },
+    "release/wbyb2.0": {
+      "appid": "wx9b5bc8cd8a2508fc",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.21",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wx9b5bc8cd8a2508fc.key"
+    },
+    "release/ljct2.0": {
+      "appid": "wx98f1590f58754b97",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.22",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wx98f1590f58754b97.key"
+    },
+    "release/bsks2.0": {
+      "appid": "wx8f053bc7d6a4c8b2",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.23",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wx8f053bc7d6a4c8b2.key"
+    },
+    "release/kjktp2.0": {
+      "appid": "wxe1e80de4bbff8aee",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.9.2",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wxe1e80de4bbff8aee.key"
+    },
+    "release/wstpzw2.0": {
+      "appid": "wx38c6cf5d40a09520",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.3",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wx38c6cf5d40a09520.key"
+    },
+    "release/wstpw2.0": {
+      "appid": "wxce850dc55ff6bc11",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.13",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wxce850dc55ff6bc11.key"
+    },
+    "release/tpwzn2.0": {
+      "appid": "wx599f9350dfdb4800",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.15",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wx599f9350dfdb4800.key"
+    },
+    "release/mrtp2.0": {
+      "appid": "wxca4276993158aa9b",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.17",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wxca4276993158aa9b.key"
+    },
+    "release/tpdts2.0": {
+      "appid": "wx501ab57232ec1496",
+      "version": "2.0.11",
+      "cdnCode": "td-szmw-wechat-prod",
+      "cdnVersion": "1.4.16",
+      "privateKeyPath": "D:/feishuDownload/COMMONT_CDN/wxTools/privateKeys/private.wx501ab57232ec1496.key"
     }
   }
 }
