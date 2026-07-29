@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-29T07:43:04.355Z",
+  "targetPath": "D:/git/a9/A9-Client/assets",
+  "dryRun": false,
+  "deleteRoot": false,
+  "summary": {
+    "scannedDirCount": 306,
+    "emptyDirCount": 2,
+    "deletedDirCount": 2,
+    "failedCount": 0
+  },
+  "emptyDirs": [
+    "D:/git/a9/A9-Client/assets/home/icon/Game_Pass",
+    "D:/git/a9/A9-Client/assets/home/icon/Weektask"
+  ],
+  "deletedDirs": [
+    "D:/git/a9/A9-Client/assets/home/icon/Game_Pass",
+    "D:/git/a9/A9-Client/assets/home/icon/Weektask"
+  ],
+  "failed": []
+}

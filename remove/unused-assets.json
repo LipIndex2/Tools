@@ -1,0 +1,4608 @@
+{
+  "generatedAt": "2026-07-29T07:36:27.484Z",
+  "targetPath": "D:\\git\\a9\\A9-Client\\assets\\spine\\spines",
+  "summary": {
+    "totalAssets": 370,
+    "used": 200,
+    "directDelete": 0,
+    "suggestedDelete": 70,
+    "considerDelete": 100
+  },
+  "levels": {
+    "directDelete": "直接删除：普通静态资源，未发现 UUID 引用，不在动态加载风险目录，且文件最后 Git 提交早于 2026-05-30。",
+    "suggestedDelete": "建议删除：未发现 UUID 引用，但资源类型可能作为入口或被特殊方式使用。",
+    "considerDelete": "考虑删除：动态加载风险目录、meta-only 或未知类型。"
+  },
+  "assets": [
+    {
+      "uuid": "4315a0fb-3ce3-44ad-8b88-45e761b9d1d5",
+      "uuids": [
+        "4315a0fb-3ce3-44ad-8b88-45e761b9d1d5"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/boshi/boshi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/boshi/boshi.skel.meta",
+      "relativeAssetPath": "A9player/boshi/boshi.skel",
+      "relativeMetaPath": "A9player/boshi/boshi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784687750,
+        "date": "2026-07-22 10:35:50 +0800",
+        "hash": "26e85055",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "5f90ac7d-cf84-4203-89a9-924b536a5d45",
+      "uuids": [
+        "5f90ac7d-cf84-4203-89a9-924b536a5d45"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/ganlanqiu/ganlanqiu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/ganlanqiu/ganlanqiu.skel.meta",
+      "relativeAssetPath": "A9player/ganlanqiu/ganlanqiu.skel",
+      "relativeMetaPath": "A9player/ganlanqiu/ganlanqiu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783045346,
+        "date": "2026-07-03 10:22:26 +0800",
+        "hash": "b319a5e7",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "b8f113f2-e578-48df-95dd-5f1a590169d5",
+      "uuids": [
+        "b8f113f2-e578-48df-95dd-5f1a590169d5"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/jiangshi/jiangshi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/jiangshi/jiangshi.skel.meta",
+      "relativeAssetPath": "A9player/jiangshi/jiangshi.skel",
+      "relativeMetaPath": "A9player/jiangshi/jiangshi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783046149,
+        "date": "2026-07-03 10:35:49 +0800",
+        "hash": "72fefe62",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "bdba04e9-c827-416c-8c23-7fa73d112a5c",
+      "uuids": [
+        "bdba04e9-c827-416c-8c23-7fa73d112a5c"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/jijia_01/jijia_01.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/jijia_01/jijia_01.skel.meta",
+      "relativeAssetPath": "A9player/jijia_01/jijia_01.skel",
+      "relativeMetaPath": "A9player/jijia_01/jijia_01.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783390058,
+        "date": "2026-07-07 10:07:38 +0800",
+        "hash": "b5e42fa4",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "d8798815-6562-4c12-894a-fb3af74c8b21",
+      "uuids": [
+        "d8798815-6562-4c12-894a-fb3af74c8b21"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/jurenjiangshi/jurenjiangshi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/jurenjiangshi/jurenjiangshi.skel.meta",
+      "relativeAssetPath": "A9player/jurenjiangshi/jurenjiangshi.skel",
+      "relativeMetaPath": "A9player/jurenjiangshi/jurenjiangshi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783512590,
+        "date": "2026-07-08 20:09:50 +0800",
+        "hash": "ebc125af",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "7561f670-c1c5-44c7-a371-2068b2554d85",
+      "uuids": [
+        "7561f670-c1c5-44c7-a371-2068b2554d85"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/luzhangjiangshi/luzhang.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/luzhangjiangshi/luzhang.skel.meta",
+      "relativeAssetPath": "A9player/luzhangjiangshi/luzhang.skel",
+      "relativeMetaPath": "A9player/luzhangjiangshi/luzhang.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783046149,
+        "date": "2026-07-03 10:35:49 +0800",
+        "hash": "72fefe62",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "a0fdc607-bbb2-4ac5-b66b-ce1311bb3036",
+      "uuids": [
+        "a0fdc607-bbb2-4ac5-b66b-ce1311bb3036"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/nvzhu/nvzhu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/nvzhu/nvzhu.skel.meta",
+      "relativeAssetPath": "A9player/nvzhu/nvzhu.skel",
+      "relativeMetaPath": "A9player/nvzhu/nvzhu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783512080,
+        "date": "2026-07-08 20:01:20 +0800",
+        "hash": "122572b1",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "4fa03188-48de-45bf-9d37-b9476712aa0f",
+      "uuids": [
+        "4fa03188-48de-45bf-9d37-b9476712aa0f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/tietongjiangshi/tietong.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/tietongjiangshi/tietong.skel.meta",
+      "relativeAssetPath": "A9player/tietongjiangshi/tietong.skel",
+      "relativeMetaPath": "A9player/tietongjiangshi/tietong.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783046149,
+        "date": "2026-07-03 10:35:49 +0800",
+        "hash": "72fefe62",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "7b817fd7-db2b-4125-993f-74de4601d579",
+      "uuids": [
+        "7b817fd7-db2b-4125-993f-74de4601d579"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/wurenji/wurenji.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/wurenji/wurenji.skel.meta",
+      "relativeAssetPath": "A9player/wurenji/wurenji.skel",
+      "relativeMetaPath": "A9player/wurenji/wurenji.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1782957388,
+        "date": "2026-07-02 09:56:28 +0800",
+        "hash": "6a8fe1b3",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "33d800af-cace-42eb-8799-8b840685a758",
+      "uuids": [
+        "33d800af-cace-42eb-8799-8b840685a758"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/zhujue/zhujue.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9player/zhujue/zhujue.skel.meta",
+      "relativeAssetPath": "A9player/zhujue/zhujue.skel",
+      "relativeMetaPath": "A9player/zhujue/zhujue.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1782803653,
+        "date": "2026-06-30 15:14:13 +0800",
+        "hash": "0060050f",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "365e1932-d5aa-49fc-a4a9-76453d43f1fa",
+      "uuids": [
+        "365e1932-d5aa-49fc-a4a9-76453d43f1fa"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/A9_main/BgShow_001.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/A9_main/BgShow_001.skel.meta",
+      "relativeAssetPath": "A9UI/A9_main/BgShow_001.skel",
+      "relativeMetaPath": "A9UI/A9_main/BgShow_001.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784020157,
+        "date": "2026-07-14 17:09:17 +0800",
+        "hash": "66b2a024",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "8bfbe52d-7d85-4c54-af1c-ff13fe9a30b3",
+      "uuids": [
+        "8bfbe52d-7d85-4c54-af1c-ff13fe9a30b3"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/better_array.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/better_array.anim.meta",
+      "relativeAssetPath": "A9UI/better_array.anim",
+      "relativeMetaPath": "A9UI/better_array.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1785202449,
+        "date": "2026-07-28 09:34:09 +0800",
+        "hash": "8795bf78",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "846d796f-afb5-4fcf-a835-8f1a578b95e5",
+      "uuids": [
+        "846d796f-afb5-4fcf-a835-8f1a578b95e5"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/bosscoming_ui.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/bosscoming_ui.anim.meta",
+      "relativeAssetPath": "A9UI/bosscoming_ui.anim",
+      "relativeMetaPath": "A9UI/bosscoming_ui.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784619320,
+        "date": "2026-07-21 15:35:20 +0800",
+        "hash": "9b123987",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "5a1750d1-5001-4408-ab8e-685d6e9e6dae",
+      "uuids": [
+        "5a1750d1-5001-4408-ab8e-685d6e9e6dae"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/BossComing/BossComing.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/BossComing/BossComing.skel.meta",
+      "relativeAssetPath": "A9UI/BossComing/BossComing.skel",
+      "relativeMetaPath": "A9UI/BossComing/BossComing.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784616683,
+        "date": "2026-07-21 14:51:23 +0800",
+        "hash": "5a639147",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "d250783b-415d-49a4-8ff4-90a08f4c4ee4",
+      "uuids": [
+        "d250783b-415d-49a4-8ff4-90a08f4c4ee4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step1.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step1.anim.meta",
+      "relativeAssetPath": "A9UI/cartoon/step1.anim",
+      "relativeMetaPath": "A9UI/cartoon/step1.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784519041,
+        "date": "2026-07-20 11:44:01 +0800",
+        "hash": "64e29dd1",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "d1ba1fd9-be9e-4337-88fc-c1bb4eb117b4",
+      "uuids": [
+        "d1ba1fd9-be9e-4337-88fc-c1bb4eb117b4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step2.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step2.anim.meta",
+      "relativeAssetPath": "A9UI/cartoon/step2.anim",
+      "relativeMetaPath": "A9UI/cartoon/step2.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784273219,
+        "date": "2026-07-17 15:26:59 +0800",
+        "hash": "0e878373",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "c56f983f-4c7d-42bc-b676-dea7974c8148",
+      "uuids": [
+        "c56f983f-4c7d-42bc-b676-dea7974c8148"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step3.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step3.anim.meta",
+      "relativeAssetPath": "A9UI/cartoon/step3.anim",
+      "relativeMetaPath": "A9UI/cartoon/step3.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784273219,
+        "date": "2026-07-17 15:26:59 +0800",
+        "hash": "0e878373",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "32811289-bc75-4f20-8eb3-6a780e859be4",
+      "uuids": [
+        "32811289-bc75-4f20-8eb3-6a780e859be4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step4.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step4.anim.meta",
+      "relativeAssetPath": "A9UI/cartoon/step4.anim",
+      "relativeMetaPath": "A9UI/cartoon/step4.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784273219,
+        "date": "2026-07-17 15:26:59 +0800",
+        "hash": "0e878373",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "b7571e51-62cb-44e0-87b2-09ba731aa3d1",
+      "uuids": [
+        "b7571e51-62cb-44e0-87b2-09ba731aa3d1"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step6.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cartoon/step6.anim.meta",
+      "relativeAssetPath": "A9UI/cartoon/step6.anim",
+      "relativeMetaPath": "A9UI/cartoon/step6.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784273219,
+        "date": "2026-07-17 15:26:59 +0800",
+        "hash": "0e878373",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "a06119d1-2ebf-4a10-acaf-fdc91d738563",
+      "uuids": [
+        "a06119d1-2ebf-4a10-acaf-fdc91d738563"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/chat.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/chat.anim.meta",
+      "relativeAssetPath": "A9UI/chat.anim",
+      "relativeMetaPath": "A9UI/chat.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783044015,
+        "date": "2026-07-03 10:00:15 +0800",
+        "hash": "30d64bff",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "de8ac927-3804-4fbb-96b4-c10be812aa44",
+      "uuids": [
+        "de8ac927-3804-4fbb-96b4-c10be812aa44"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cheli/cheli.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/cheli/cheli.skel.meta",
+      "relativeAssetPath": "A9UI/cheli/cheli.skel",
+      "relativeMetaPath": "A9UI/cheli/cheli.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784257038,
+        "date": "2026-07-17 10:57:18 +0800",
+        "hash": "d80e32ff",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "83d42723-acf4-4342-a2ae-ee34209bb4f2",
+      "uuids": [
+        "83d42723-acf4-4342-a2ae-ee34209bb4f2"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/Chip_get/Chip_get.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/Chip_get/Chip_get.skel.meta",
+      "relativeAssetPath": "A9UI/Chip_get/Chip_get.skel",
+      "relativeMetaPath": "A9UI/Chip_get/Chip_get.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784881084,
+        "date": "2026-07-24 16:18:04 +0800",
+        "hash": "8518d952",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "5262baff-a17e-46c7-8ee7-c78b0c8e276a",
+      "uuids": [
+        "5262baff-a17e-46c7-8ee7-c78b0c8e276a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_player/hit_player.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_player/hit_player.skel.meta",
+      "relativeAssetPath": "A9UI/hit_player/hit_player.skel",
+      "relativeMetaPath": "A9UI/hit_player/hit_player.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783560991,
+        "date": "2026-07-09 09:36:31 +0800",
+        "hash": "caa8c3df",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "a0c98490-8444-461c-9b5f-7481dcea989e",
+      "uuids": [
+        "a0c98490-8444-461c-9b5f-7481dcea989e"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_001/hit_shoot_001.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_001/hit_shoot_001.skel.meta",
+      "relativeAssetPath": "A9UI/hit_shoot_001/hit_shoot_001.skel",
+      "relativeMetaPath": "A9UI/hit_shoot_001/hit_shoot_001.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783413171,
+        "date": "2026-07-07 16:32:51 +0800",
+        "hash": "4cd5cb3a",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "5784d8d8-c60a-4567-9568-f8328f09aa3f",
+      "uuids": [
+        "5784d8d8-c60a-4567-9568-f8328f09aa3f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_002/hit_shoot_002.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_002/hit_shoot_002.skel.meta",
+      "relativeAssetPath": "A9UI/hit_shoot_002/hit_shoot_002.skel",
+      "relativeMetaPath": "A9UI/hit_shoot_002/hit_shoot_002.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783413171,
+        "date": "2026-07-07 16:32:51 +0800",
+        "hash": "4cd5cb3a",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "b4f54148-0144-4fd4-b7eb-742c7fb35e9b",
+      "uuids": [
+        "b4f54148-0144-4fd4-b7eb-742c7fb35e9b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_003/hit_shoot_003.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_003/hit_shoot_003.skel.meta",
+      "relativeAssetPath": "A9UI/hit_shoot_003/hit_shoot_003.skel",
+      "relativeMetaPath": "A9UI/hit_shoot_003/hit_shoot_003.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783933574,
+        "date": "2026-07-13 17:06:14 +0800",
+        "hash": "2b993ecb",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "691dd01b-a23c-4de0-9d14-38ac8056631a",
+      "uuids": [
+        "691dd01b-a23c-4de0-9d14-38ac8056631a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_004/hit_shoot_004.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_004/hit_shoot_004.skel.meta",
+      "relativeAssetPath": "A9UI/hit_shoot_004/hit_shoot_004.skel",
+      "relativeMetaPath": "A9UI/hit_shoot_004/hit_shoot_004.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783933574,
+        "date": "2026-07-13 17:06:14 +0800",
+        "hash": "2b993ecb",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "32c646f0-f136-419d-8a20-59a1ce4e8a82",
+      "uuids": [
+        "32c646f0-f136-419d-8a20-59a1ce4e8a82"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_005/hit_shoot_005.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_005/hit_shoot_005.skel.meta",
+      "relativeAssetPath": "A9UI/hit_shoot_005/hit_shoot_005.skel",
+      "relativeMetaPath": "A9UI/hit_shoot_005/hit_shoot_005.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783932576,
+        "date": "2026-07-13 16:49:36 +0800",
+        "hash": "3f6f6dda",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "3f6e7a14-40da-48bc-ad3f-0db6f9f6296b",
+      "uuids": [
+        "3f6e7a14-40da-48bc-ad3f-0db6f9f6296b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_006/hit_shoot_006.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_shoot_006/hit_shoot_006.skel.meta",
+      "relativeAssetPath": "A9UI/hit_shoot_006/hit_shoot_006.skel",
+      "relativeMetaPath": "A9UI/hit_shoot_006/hit_shoot_006.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783932576,
+        "date": "2026-07-13 16:49:36 +0800",
+        "hash": "3f6f6dda",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "48820f73-c22a-47e3-a952-799ce83d595d",
+      "uuids": [
+        "48820f73-c22a-47e3-a952-799ce83d595d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_skill_001/hit_skill_001.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/hit_skill_001/hit_skill_001.skel.meta",
+      "relativeAssetPath": "A9UI/hit_skill_001/hit_skill_001.skel",
+      "relativeMetaPath": "A9UI/hit_skill_001/hit_skill_001.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783413171,
+        "date": "2026-07-07 16:32:51 +0800",
+        "hash": "4cd5cb3a",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "829c18ed-43b1-47e0-b313-093771a5dc7c",
+      "uuids": [
+        "829c18ed-43b1-47e0-b313-093771a5dc7c"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/jijia_01_s/jijia_01_s.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/jijia_01_s/jijia_01_s.skel.meta",
+      "relativeAssetPath": "A9UI/jijia_01_s/jijia_01_s.skel",
+      "relativeMetaPath": "A9UI/jijia_01_s/jijia_01_s.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783390058,
+        "date": "2026-07-07 10:07:38 +0800",
+        "hash": "b5e42fa4",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "3c87b347-9680-407d-a701-6d47c22ede97",
+      "uuids": [
+        "3c87b347-9680-407d-a701-6d47c22ede97"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/jijia_power_top.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/jijia_power_top.anim.meta",
+      "relativeAssetPath": "A9UI/jijia_power_top.anim",
+      "relativeMetaPath": "A9UI/jijia_power_top.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1783922028,
+        "date": "2026-07-13 13:53:48 +0800",
+        "hash": "cc7bdd47",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "ca643b09-e185-4f45-83c9-08a524ca70ea",
+      "uuids": [
+        "ca643b09-e185-4f45-83c9-08a524ca70ea"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/main_hook.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/main_hook.anim.meta",
+      "relativeAssetPath": "A9UI/main_hook.anim",
+      "relativeMetaPath": "A9UI/main_hook.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784873658,
+        "date": "2026-07-24 14:14:18 +0800",
+        "hash": "4d4a3328",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "37e370e7-3e55-40e1-ae5e-7836f595132d",
+      "uuids": [
+        "37e370e7-3e55-40e1-ae5e-7836f595132d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/monster_Born/monster_Born.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/monster_Born/monster_Born.skel.meta",
+      "relativeAssetPath": "A9UI/monster_Born/monster_Born.skel",
+      "relativeMetaPath": "A9UI/monster_Born/monster_Born.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784257038,
+        "date": "2026-07-17 10:57:18 +0800",
+        "hash": "d80e32ff",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "c25b16e3-28c2-4073-88cd-157d79f88c38",
+      "uuids": [
+        "c25b16e3-28c2-4073-88cd-157d79f88c38"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/search.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/search.anim.meta",
+      "relativeAssetPath": "A9UI/search.anim",
+      "relativeMetaPath": "A9UI/search.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784119164,
+        "date": "2026-07-15 20:39:24 +0800",
+        "hash": "5e653b95",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "01e6e9c1-6add-41cc-a68e-62698fa6e3dd",
+      "uuids": [
+        "01e6e9c1-6add-41cc-a68e-62698fa6e3dd"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/searched.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/searched.anim.meta",
+      "relativeAssetPath": "A9UI/searched.anim",
+      "relativeMetaPath": "A9UI/searched.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1782356856,
+        "date": "2026-06-25 11:07:36 +0800",
+        "hash": "5932046d",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "a3f44710-9a8a-4540-8a6a-6336e5df048a",
+      "uuids": [
+        "a3f44710-9a8a-4540-8a6a-6336e5df048a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/Start.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/A9UI/Start.anim.meta",
+      "relativeAssetPath": "A9UI/Start.anim",
+      "relativeMetaPath": "A9UI/Start.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1784116547,
+        "date": "2026-07-15 19:55:47 +0800",
+        "hash": "f54013ae",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "73a6ea1b-4d37-48d2-98e0-3bb272706e99",
+      "uuids": [
+        "73a6ea1b-4d37-48d2-98e0-3bb272706e99"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/bell/jingshiling.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/bell/jingshiling.skel.meta",
+      "relativeAssetPath": "player/bell/jingshiling.skel",
+      "relativeMetaPath": "player/bell/jingshiling.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "7772adda-92d1-496c-9388-b9ed88adfdc4",
+      "uuids": [
+        "7772adda-92d1-496c-9388-b9ed88adfdc4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/caiwenji/Caiwenji.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/caiwenji/Caiwenji.skel.meta",
+      "relativeAssetPath": "player/caiwenji/Caiwenji.skel",
+      "relativeMetaPath": "player/caiwenji/Caiwenji.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "4329b074-8875-4c42-845c-d7a52fc49eda",
+      "uuids": [
+        "4329b074-8875-4c42-845c-d7a52fc49eda"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/Cap/Cap.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/Cap/Cap.skel.meta",
+      "relativeAssetPath": "player/Cap/Cap.skel",
+      "relativeMetaPath": "player/Cap/Cap.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "7c98b5cf-534f-4320-8e3b-6b6c1a84af88",
+      "uuids": [
+        "7c98b5cf-534f-4320-8e3b-6b6c1a84af88"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/chengxuyuan/chengxuyuan.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/chengxuyuan/chengxuyuan.skel.meta",
+      "relativeAssetPath": "player/chengxuyuan/chengxuyuan.skel",
+      "relativeMetaPath": "player/chengxuyuan/chengxuyuan.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "8e420ce2-05c7-4108-aba7-0c4b63b73b2f",
+      "uuids": [
+        "8e420ce2-05c7-4108-aba7-0c4b63b73b2f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/daifu/daifu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/daifu/daifu.skel.meta",
+      "relativeAssetPath": "player/daifu/daifu.skel",
+      "relativeMetaPath": "player/daifu/daifu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "2b5091a5-f5af-4133-92d7-53dbfbb822cf",
+      "uuids": [
+        "2b5091a5-f5af-4133-92d7-53dbfbb822cf"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/daodungou/daodun.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/daodungou/daodun.skel.meta",
+      "relativeAssetPath": "player/daodungou/daodun.skel",
+      "relativeMetaPath": "player/daodungou/daodun.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "3d36d980-73ed-4d7e-ab42-d2261d230158",
+      "uuids": [
+        "3d36d980-73ed-4d7e-ab42-d2261d230158"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dashou/dashou.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dashou/dashou.skel.meta",
+      "relativeAssetPath": "player/dashou/dashou.skel",
+      "relativeMetaPath": "player/dashou/dashou.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "3f96442a-6d71-4874-bfa1-18dc4d97f48b",
+      "uuids": [
+        "3f96442a-6d71-4874-bfa1-18dc4d97f48b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dianjuren/dianjuren.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dianjuren/dianjuren.skel.meta",
+      "relativeAssetPath": "player/dianjuren/dianjuren.skel",
+      "relativeMetaPath": "player/dianjuren/dianjuren.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "7fdb1a5c-13d9-4b8e-ab49-38fc6737bb4e",
+      "uuids": [
+        "7fdb1a5c-13d9-4b8e-ab49-38fc6737bb4e"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/diaochan/Diaochan.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/diaochan/Diaochan.skel.meta",
+      "relativeAssetPath": "player/diaochan/Diaochan.skel",
+      "relativeMetaPath": "player/diaochan/Diaochan.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "0dd2c19b-3d9e-49b3-919d-cca3a81dc9e2",
+      "uuids": [
+        "0dd2c19b-3d9e-49b3-919d-cca3a81dc9e2"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/diyuhuo/diyuhuo.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/diyuhuo/diyuhuo.skel.meta",
+      "relativeAssetPath": "player/diyuhuo/diyuhuo.skel",
+      "relativeMetaPath": "player/diyuhuo/diyuhuo.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "769e4582-fcae-428a-8775-5f3868c0e954",
+      "uuids": [
+        "769e4582-fcae-428a-8775-5f3868c0e954"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dog/dog.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dog/dog.skel.meta",
+      "relativeAssetPath": "player/dog/dog.skel",
+      "relativeMetaPath": "player/dog/dog.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "2f872fac-6ecd-46e4-a5c4-05ba4dacd8c4",
+      "uuids": [
+        "2f872fac-6ecd-46e4-a5c4-05ba4dacd8c4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dongjie/dongjie.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/dongjie/dongjie.skel.meta",
+      "relativeAssetPath": "player/dongjie/dongjie.skel",
+      "relativeMetaPath": "player/dongjie/dongjie.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "28a4d6db-15b5-493b-87f5-57f9a6f79a6b",
+      "uuids": [
+        "28a4d6db-15b5-493b-87f5-57f9a6f79a6b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/feixing/feixing.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/feixing/feixing.skel.meta",
+      "relativeAssetPath": "player/feixing/feixing.skel",
+      "relativeMetaPath": "player/feixing/feixing.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "4acaac57-7a8d-45c1-b265-a01e43729634",
+      "uuids": [
+        "4acaac57-7a8d-45c1-b265-a01e43729634"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/fenghou/fenghou.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/fenghou/fenghou.skel.meta",
+      "relativeAssetPath": "player/fenghou/fenghou.skel",
+      "relativeMetaPath": "player/fenghou/fenghou.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "d0ea7a29-e4b9-4321-8de8-9dd06ccfd59e",
+      "uuids": [
+        "d0ea7a29-e4b9-4321-8de8-9dd06ccfd59e"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/guanjia/guanjia.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/guanjia/guanjia.skel.meta",
+      "relativeAssetPath": "player/guanjia/guanjia.skel",
+      "relativeMetaPath": "player/guanjia/guanjia.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "96a6b25f-575e-4c99-9ded-5d6fbfce3f51",
+      "uuids": [
+        "96a6b25f-575e-4c99-9ded-5d6fbfce3f51"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/gugu/gugu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/gugu/gugu.skel.meta",
+      "relativeAssetPath": "player/gugu/gugu.skel",
+      "relativeMetaPath": "player/gugu/gugu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "15431eda-6a36-449d-9bb5-32033937417d",
+      "uuids": [
+        "15431eda-6a36-449d-9bb5-32033937417d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/heihuayisheng/heihuayisheng.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/heihuayisheng/heihuayisheng.skel.meta",
+      "relativeAssetPath": "player/heihuayisheng/heihuayisheng.skel",
+      "relativeMetaPath": "player/heihuayisheng/heihuayisheng.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "cb50d42e-fbfe-451e-83f0-95a6644191c7",
+      "uuids": [
+        "cb50d42e-fbfe-451e-83f0-95a6644191c7"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/hudun/hudun.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/hudun/hudun.skel.meta",
+      "relativeAssetPath": "player/hudun/hudun.skel",
+      "relativeMetaPath": "player/hudun/hudun.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "ba7d1287-0a3a-4355-97b6-6c93578178cd",
+      "uuids": [
+        "ba7d1287-0a3a-4355-97b6-6c93578178cd"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/hushi/hushi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/hushi/hushi.skel.meta",
+      "relativeAssetPath": "player/hushi/hushi.skel",
+      "relativeMetaPath": "player/hushi/hushi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "caa089d3-f24e-447b-9f29-3aa2bc7be4ce",
+      "uuids": [
+        "caa089d3-f24e-447b-9f29-3aa2bc7be4ce"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/jiaoshi/jiaoshi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/jiaoshi/jiaoshi.skel.meta",
+      "relativeAssetPath": "player/jiaoshi/jiaoshi.skel",
+      "relativeMetaPath": "player/jiaoshi/jiaoshi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "38a9dcc0-3fe3-4dc8-b4cc-b4956784ab72",
+      "uuids": [
+        "38a9dcc0-3fe3-4dc8-b4cc-b4956784ab72"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/keji/Xiaoai.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/keji/Xiaoai.skel.meta",
+      "relativeAssetPath": "player/keji/Xiaoai.skel",
+      "relativeMetaPath": "player/keji/Xiaoai.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "d850db28-3674-4bb3-a7ae-f7b85edf8a1d",
+      "uuids": [
+        "d850db28-3674-4bb3-a7ae-f7b85edf8a1d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/konglong/konglong.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/konglong/konglong.skel.meta",
+      "relativeAssetPath": "player/konglong/konglong.skel",
+      "relativeMetaPath": "player/konglong/konglong.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f03a0f3d-eb03-47a2-ad67-7bcd5dd82a02",
+      "uuids": [
+        "f03a0f3d-eb03-47a2-ad67-7bcd5dd82a02"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lalading/aladingshendeng.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lalading/aladingshendeng.skel.meta",
+      "relativeAssetPath": "player/lalading/aladingshendeng.skel",
+      "relativeMetaPath": "player/lalading/aladingshendeng.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "967ca4e5-4658-46a1-ae62-e8bc3e4d5eb1",
+      "uuids": [
+        "967ca4e5-4658-46a1-ae62-e8bc3e4d5eb1"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lalahuo/huolala.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lalahuo/huolala.skel.meta",
+      "relativeAssetPath": "player/lalahuo/huolala.skel",
+      "relativeMetaPath": "player/lalahuo/huolala.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f56d5015-e47b-402c-b757-b33d81f4eb04",
+      "uuids": [
+        "f56d5015-e47b-402c-b757-b33d81f4eb04"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/laohuji/laohuji.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/laohuji/laohuji.skel.meta",
+      "relativeAssetPath": "player/laohuji/laohuji.skel",
+      "relativeMetaPath": "player/laohuji/laohuji.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "1127bb1d-a7af-4770-b25c-6f9045ee02e9",
+      "uuids": [
+        "1127bb1d-a7af-4770-b25c-6f9045ee02e9"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lifangkuai/lifangkuai.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lifangkuai/lifangkuai.skel.meta",
+      "relativeAssetPath": "player/lifangkuai/lifangkuai.skel",
+      "relativeMetaPath": "player/lifangkuai/lifangkuai.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "a566b14f-4467-4078-ab8f-16c4d38dcf9f",
+      "uuids": [
+        "a566b14f-4467-4078-ab8f-16c4d38dcf9f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lilaotou/lilaotou.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lilaotou/lilaotou.skel.meta",
+      "relativeAssetPath": "player/lilaotou/lilaotou.skel",
+      "relativeMetaPath": "player/lilaotou/lilaotou.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "836c3690-4bc1-483a-b972-cf9ef76ca8ff",
+      "uuids": [
+        "836c3690-4bc1-483a-b972-cf9ef76ca8ff"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lintongxue/lintongxue.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/lintongxue/lintongxue.skel.meta",
+      "relativeAssetPath": "player/lintongxue/lintongxue.skel",
+      "relativeMetaPath": "player/lintongxue/lintongxue.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "6c0d08fb-daa4-4d45-bab8-dbaf7f2b0553",
+      "uuids": [
+        "6c0d08fb-daa4-4d45-bab8-dbaf7f2b0553"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/longaotian/long.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/longaotian/long.skel.meta",
+      "relativeAssetPath": "player/longaotian/long.skel",
+      "relativeMetaPath": "player/longaotian/long.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "32ad29ca-ac73-4888-b9f2-bcdff319e0aa",
+      "uuids": [
+        "32ad29ca-ac73-4888-b9f2-bcdff319e0aa"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/manghe/manghe.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/manghe/manghe.skel.meta",
+      "relativeAssetPath": "player/manghe/manghe.skel",
+      "relativeMetaPath": "player/manghe/manghe.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "022abe94-4056-4338-81e5-ac09382c3e63",
+      "uuids": [
+        "022abe94-4056-4338-81e5-ac09382c3e63"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/meimei/meimei.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/meimei/meimei.skel.meta",
+      "relativeAssetPath": "player/meimei/meimei.skel",
+      "relativeMetaPath": "player/meimei/meimei.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "58a8a338-3f7f-4ac9-96b0-5143604f6410",
+      "uuids": [
+        "58a8a338-3f7f-4ac9-96b0-5143604f6410"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/moshenjiangshi/moshenjiangshi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/moshenjiangshi/moshenjiangshi.skel.meta",
+      "relativeAssetPath": "player/moshenjiangshi/moshenjiangshi.skel",
+      "relativeMetaPath": "player/moshenjiangshi/moshenjiangshi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f6f9bd4a-4920-4446-83a7-f073000abc59",
+      "uuids": [
+        "f6f9bd4a-4920-4446-83a7-f073000abc59"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/nvzhubao/nvzhubao.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/nvzhubao/nvzhubao.skel.meta",
+      "relativeAssetPath": "player/nvzhubao/nvzhubao.skel",
+      "relativeMetaPath": "player/nvzhubao/nvzhubao.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "3210848a-7517-46ba-bf3b-4ca11a3eb98f",
+      "uuids": [
+        "3210848a-7517-46ba-bf3b-4ca11a3eb98f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/pitao/pitao.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/pitao/pitao.skel.meta",
+      "relativeAssetPath": "player/pitao/pitao.skel",
+      "relativeMetaPath": "player/pitao/pitao.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "99e48c65-423a-472a-8890-f32fec476c84",
+      "uuids": [
+        "99e48c65-423a-472a-8890-f32fec476c84"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/qingwa/lvxingqingwa.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/qingwa/lvxingqingwa.skel.meta",
+      "relativeAssetPath": "player/qingwa/lvxingqingwa.skel",
+      "relativeMetaPath": "player/qingwa/lvxingqingwa.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "dfd58feb-4c7b-4679-93d5-fa5c7852c648",
+      "uuids": [
+        "dfd58feb-4c7b-4679-93d5-fa5c7852c648"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/saicheshou_juwai/saicheshou_person.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/saicheshou_juwai/saicheshou_person.skel.meta",
+      "relativeAssetPath": "player/saicheshou_juwai/saicheshou_person.skel",
+      "relativeMetaPath": "player/saicheshou_juwai/saicheshou_person.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "d93c7784-e74e-4d18-9ab2-bd0831fb04ee",
+      "uuids": [
+        "d93c7784-e74e-4d18-9ab2-bd0831fb04ee"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/saicheshou_juwai/saicheshou_tx.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/saicheshou_juwai/saicheshou_tx.skel.meta",
+      "relativeAssetPath": "player/saicheshou_juwai/saicheshou_tx.skel",
+      "relativeMetaPath": "player/saicheshou_juwai/saicheshou_tx.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "7f5dcb7e-2138-44b6-a1ec-16419212750e",
+      "uuids": [
+        "7f5dcb7e-2138-44b6-a1ec-16419212750e"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/saicheshou/saicheshou.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/saicheshou/saicheshou.skel.meta",
+      "relativeAssetPath": "player/saicheshou/saicheshou.skel",
+      "relativeMetaPath": "player/saicheshou/saicheshou.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f4055a66-286a-4437-93a5-689e38a1f90d",
+      "uuids": [
+        "f4055a66-286a-4437-93a5-689e38a1f90d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/sharenfeng/sharenfeng.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/sharenfeng/sharenfeng.skel.meta",
+      "relativeAssetPath": "player/sharenfeng/sharenfeng.skel",
+      "relativeMetaPath": "player/sharenfeng/sharenfeng.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "beadd578-8f2d-4d6c-9b16-6f90a97a576f",
+      "uuids": [
+        "beadd578-8f2d-4d6c-9b16-6f90a97a576f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/shenmimao/shenmimao.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/shenmimao/shenmimao.skel.meta",
+      "relativeAssetPath": "player/shenmimao/shenmimao.skel",
+      "relativeMetaPath": "player/shenmimao/shenmimao.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "8b5ad528-31c2-47f3-acb4-8a52dc67ad6a",
+      "uuids": [
+        "8b5ad528-31c2-47f3-acb4-8a52dc67ad6a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/shuiyipaidui/shuiyipaidui.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/shuiyipaidui/shuiyipaidui.skel.meta",
+      "relativeAssetPath": "player/shuiyipaidui/shuiyipaidui.skel",
+      "relativeMetaPath": "player/shuiyipaidui/shuiyipaidui.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "fc0f2c7a-2173-4658-8242-13bc3932f42b",
+      "uuids": [
+        "fc0f2c7a-2173-4658-8242-13bc3932f42b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/Spider/Spider.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/Spider/Spider.skel.meta",
+      "relativeAssetPath": "player/Spider/Spider.skel",
+      "relativeMetaPath": "player/Spider/Spider.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f5bb7c4f-74ba-4518-a1ba-a6424b1c8913",
+      "uuids": [
+        "f5bb7c4f-74ba-4518-a1ba-a6424b1c8913"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/taimeiji/taimeiji.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/taimeiji/taimeiji.skel.meta",
+      "relativeAssetPath": "player/taimeiji/taimeiji.skel",
+      "relativeMetaPath": "player/taimeiji/taimeiji.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "00dc11be-2631-431a-8dd2-7cbfe72ba284",
+      "uuids": [
+        "00dc11be-2631-431a-8dd2-7cbfe72ba284"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/tiepiwa/tiepiqingwa.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/tiepiwa/tiepiqingwa.skel.meta",
+      "relativeAssetPath": "player/tiepiwa/tiepiqingwa.skel",
+      "relativeMetaPath": "player/tiepiwa/tiepiqingwa.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "d9e5e71b-507b-4615-8036-fc1881df6e05",
+      "uuids": [
+        "d9e5e71b-507b-4615-8036-fc1881df6e05"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/waimaiqishou/waimaiqishou.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/waimaiqishou/waimaiqishou.skel.meta",
+      "relativeAssetPath": "player/waimaiqishou/waimaiqishou.skel",
+      "relativeMetaPath": "player/waimaiqishou/waimaiqishou.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "6a92af6d-cfa5-4074-8b46-ac00fa67dc06",
+      "uuids": [
+        "6a92af6d-cfa5-4074-8b46-ac00fa67dc06"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/wurenji_green/wurenji_green.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/wurenji_green/wurenji_green.skel.meta",
+      "relativeAssetPath": "player/wurenji_green/wurenji_green.skel",
+      "relativeMetaPath": "player/wurenji_green/wurenji_green.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "4f456ad5-5db2-4c13-b671-b127e12627c2",
+      "uuids": [
+        "4f456ad5-5db2-4c13-b671-b127e12627c2"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/wurenji/wurenji.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/wurenji/wurenji.skel.meta",
+      "relativeAssetPath": "player/wurenji/wurenji.skel",
+      "relativeMetaPath": "player/wurenji/wurenji.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "e1c6f40b-87cc-45ea-aba7-3bb7d00f7ca9",
+      "uuids": [
+        "e1c6f40b-87cc-45ea-aba7-3bb7d00f7ca9"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiangjiaomao/xiangjiaomao.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiangjiaomao/xiangjiaomao.skel.meta",
+      "relativeAssetPath": "player/xiangjiaomao/xiangjiaomao.skel",
+      "relativeMetaPath": "player/xiangjiaomao/xiangjiaomao.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "18f0970d-0659-492b-bb8f-e483afd18fb8",
+      "uuids": [
+        "18f0970d-0659-492b-bb8f-e483afd18fb8"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiaoai/xiaoai.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiaoai/xiaoai.skel.meta",
+      "relativeAssetPath": "player/xiaoai/xiaoai.skel",
+      "relativeMetaPath": "player/xiaoai/xiaoai.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "74c24aeb-f0e1-4a54-8644-c0b2914bac4f",
+      "uuids": [
+        "74c24aeb-f0e1-4a54-8644-c0b2914bac4f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiaomai/xiaomai.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiaomai/xiaomai.skel.meta",
+      "relativeAssetPath": "player/xiaomai/xiaomai.skel",
+      "relativeMetaPath": "player/xiaomai/xiaomai.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "507f1beb-fcd1-414b-8027-555d998695fd",
+      "uuids": [
+        "507f1beb-fcd1-414b-8027-555d998695fd"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiaozhi/xiaozhi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xiaozhi/xiaozhi.skel.meta",
+      "relativeAssetPath": "player/xiaozhi/xiaozhi.skel",
+      "relativeMetaPath": "player/xiaozhi/xiaozhi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "6beef5bd-4e31-4bd1-af52-4a864afb4470",
+      "uuids": [
+        "6beef5bd-4e31-4bd1-af52-4a864afb4470"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xuanyun/xuanyun.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/xuanyun/xuanyun.skel.meta",
+      "relativeAssetPath": "player/xuanyun/xuanyun.skel",
+      "relativeMetaPath": "player/xuanyun/xuanyun.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f0bd6e33-e653-4945-b3e8-445f4c4e57a8",
+      "uuids": [
+        "f0bd6e33-e653-4945-b3e8-445f4c4e57a8"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/yanwu/yanwu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/yanwu/yanwu.skel.meta",
+      "relativeAssetPath": "player/yanwu/yanwu.skel",
+      "relativeMetaPath": "player/yanwu/yanwu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "27d6f32e-21de-4473-8e55-e3e456070b82",
+      "uuids": [
+        "27d6f32e-21de-4473-8e55-e3e456070b82"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/yisheng/yisheng.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/yisheng/yisheng.skel.meta",
+      "relativeAssetPath": "player/yisheng/yisheng.skel",
+      "relativeMetaPath": "player/yisheng/yisheng.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "18ab31e0-c0da-41bb-b169-119f96ece481",
+      "uuids": [
+        "18ab31e0-c0da-41bb-b169-119f96ece481"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhishengji/zhishengji.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhishengji/zhishengji.skel.meta",
+      "relativeAssetPath": "player/zhishengji/zhishengji.skel",
+      "relativeMetaPath": "player/zhishengji/zhishengji.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "1d2eae9b-1db6-4490-93f0-dfe1b0ac00e9",
+      "uuids": [
+        "1d2eae9b-1db6-4490-93f0-dfe1b0ac00e9"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhongdu/zhongdu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhongdu/zhongdu.skel.meta",
+      "relativeAssetPath": "player/zhongdu/zhongdu.skel",
+      "relativeMetaPath": "player/zhongdu/zhongdu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "1ea20057-835e-4e01-9655-a78dd3ca6eac",
+      "uuids": [
+        "1ea20057-835e-4e01-9655-a78dd3ca6eac"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhuangyuanzhu/zhuangyuanzhu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhuangyuanzhu/zhuangyuanzhu.skel.meta",
+      "relativeAssetPath": "player/zhuangyuanzhu/zhuangyuanzhu.skel",
+      "relativeMetaPath": "player/zhuangyuanzhu/zhuangyuanzhu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "0f05360a-8949-485a-a36f-81ffafc8ff29",
+      "uuids": [
+        "0f05360a-8949-485a-a36f-81ffafc8ff29"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhuluoji/zhuluoji.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/player/zhuluoji/zhuluoji.skel.meta",
+      "relativeAssetPath": "player/zhuluoji/zhuluoji.skel",
+      "relativeMetaPath": "player/zhuluoji/zhuluoji.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "04579ae6-0460-47cd-9f9c-c5185d297368",
+      "uuids": [
+        "04579ae6-0460-47cd-9f9c-c5185d297368"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/arraw.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/arraw.anim.meta",
+      "relativeAssetPath": "UI/arraw.anim",
+      "relativeMetaPath": "UI/arraw.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "292bb36d-731c-4df8-bd81-043a1623816f",
+      "uuids": [
+        "292bb36d-731c-4df8-bd81-043a1623816f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/chuanghu.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/chuanghu.skel.meta",
+      "relativeAssetPath": "UI/bg/chuanghu.skel",
+      "relativeMetaPath": "UI/bg/chuanghu.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "742bc259-7a9d-4b8c-a6b8-5e70d9889a76",
+      "uuids": [
+        "742bc259-7a9d-4b8c-a6b8-5e70d9889a76"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/men.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/men.skel.meta",
+      "relativeAssetPath": "UI/bg/men.skel",
+      "relativeMetaPath": "UI/bg/men.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f646f29d-d3b6-465f-b33c-908de566fc03",
+      "uuids": [
+        "f646f29d-d3b6-465f-b33c-908de566fc03"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/yueliang.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/yueliang.skel.meta",
+      "relativeAssetPath": "UI/bg/yueliang.skel",
+      "relativeMetaPath": "UI/bg/yueliang.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "4af11bf6-316d-421a-a800-1c65c461f177",
+      "uuids": [
+        "4af11bf6-316d-421a-a800-1c65c461f177"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/yun.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bg/yun.skel.meta",
+      "relativeAssetPath": "UI/bg/yun.skel",
+      "relativeMetaPath": "UI/bg/yun.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "bed58b9f-9177-4283-82f9-65f69b913f64",
+      "uuids": [
+        "bed58b9f-9177-4283-82f9-65f69b913f64"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bian.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bian.anim.meta",
+      "relativeAssetPath": "UI/bian.anim",
+      "relativeMetaPath": "UI/bian.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "9e1dbe57-c019-4a8a-82a3-c7c47a9b5d0e",
+      "uuids": [
+        "9e1dbe57-c019-4a8a-82a3-c7c47a9b5d0e"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bird.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bird.anim.meta",
+      "relativeAssetPath": "UI/bird.anim",
+      "relativeMetaPath": "UI/bird.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "11b52590-601e-47f0-893d-12f2266d7242",
+      "uuids": [
+        "11b52590-601e-47f0-893d-12f2266d7242"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/birdlight.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/birdlight.anim.meta",
+      "relativeAssetPath": "UI/birdlight.anim",
+      "relativeMetaPath": "UI/birdlight.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "429e2894-1138-4056-b36c-1cae4ec5da36",
+      "uuids": [
+        "429e2894-1138-4056-b36c-1cae4ec5da36"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/boxShake.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/boxShake.anim.meta",
+      "relativeAssetPath": "UI/boxShake.anim",
+      "relativeMetaPath": "UI/boxShake.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "1d8c9e3c-9ca8-4849-83c5-ba17c4369932",
+      "uuids": [
+        "1d8c9e3c-9ca8-4849-83c5-ba17c4369932"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bub.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/bub.anim.meta",
+      "relativeAssetPath": "UI/bub.anim",
+      "relativeMetaPath": "UI/bub.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "b733dc0e-b8b0-405a-8bc6-39406784c3a8",
+      "uuids": [
+        "b733dc0e-b8b0-405a-8bc6-39406784c3a8"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/building/jianzao.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/building/jianzao.skel.meta",
+      "relativeAssetPath": "UI/building/jianzao.skel",
+      "relativeMetaPath": "UI/building/jianzao.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "cbc2abfb-2e91-4edb-89e4-f0273a9a5c93",
+      "uuids": [
+        "cbc2abfb-2e91-4edb-89e4-f0273a9a5c93"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/button/anniuguang.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/button/anniuguang.skel.meta",
+      "relativeAssetPath": "UI/button/anniuguang.skel",
+      "relativeMetaPath": "UI/button/anniuguang.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "1af6e701-3bd9-435a-9083-7d528058b738",
+      "uuids": [
+        "1af6e701-3bd9-435a-9083-7d528058b738"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/card.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/card.anim.meta",
+      "relativeAssetPath": "UI/card.anim",
+      "relativeMetaPath": "UI/card.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "16b41620-3bd9-4721-90a8-40a0054cf4b0",
+      "uuids": [
+        "16b41620-3bd9-4721-90a8-40a0054cf4b0"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/claw.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/claw.anim.meta",
+      "relativeAssetPath": "UI/claw.anim",
+      "relativeMetaPath": "UI/claw.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "66b782c2-fcdc-4475-9297-7d97e40a4e8f",
+      "uuids": [
+        "66b782c2-fcdc-4475-9297-7d97e40a4e8f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/dark/bian/biankuang.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/dark/bian/biankuang.skel.meta",
+      "relativeAssetPath": "UI/dark/bian/biankuang.skel",
+      "relativeMetaPath": "UI/dark/bian/biankuang.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "38778033-6aed-49b9-9601-95a2794d0c8a",
+      "uuids": [
+        "38778033-6aed-49b9-9601-95a2794d0c8a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/desktop.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/desktop.anim.meta",
+      "relativeAssetPath": "UI/desktop.anim",
+      "relativeMetaPath": "UI/desktop.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "c9dea342-3df4-411c-a5fa-f040a59eaa84",
+      "uuids": [
+        "c9dea342-3df4-411c-a5fa-f040a59eaa84"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/door/meng.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/door/meng.skel.meta",
+      "relativeAssetPath": "UI/door/meng.skel",
+      "relativeMetaPath": "UI/door/meng.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "5792738c-efc2-4b04-ba08-edb7bbeb443d",
+      "uuids": [
+        "5792738c-efc2-4b04-ba08-edb7bbeb443d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/doorwudi.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/doorwudi.anim.meta",
+      "relativeAssetPath": "UI/doorwudi.anim",
+      "relativeMetaPath": "UI/doorwudi.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "9bbb24b6-0bf3-4a2c-9d42-fac39daf7d3f",
+      "uuids": [
+        "9bbb24b6-0bf3-4a2c-9d42-fac39daf7d3f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fade.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fade.anim.meta",
+      "relativeAssetPath": "UI/fade.anim",
+      "relativeMetaPath": "UI/fade.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "6be834dc-87ae-4382-a1b0-1db197b998da",
+      "uuids": [
+        "6be834dc-87ae-4382-a1b0-1db197b998da"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fall.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fall.anim.meta",
+      "relativeAssetPath": "UI/fall.anim",
+      "relativeMetaPath": "UI/fall.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "e0b6947d-ecc0-4202-8858-68f1cd94fc7b",
+      "uuids": [
+        "e0b6947d-ecc0-4202-8858-68f1cd94fc7b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fix.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fix.anim.meta",
+      "relativeAssetPath": "UI/fix.anim",
+      "relativeMetaPath": "UI/fix.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "5267fd5c-0db0-42f7-8b87-ad105f93e211",
+      "uuids": [
+        "5267fd5c-0db0-42f7-8b87-ad105f93e211"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flow.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flow.anim.meta",
+      "relativeAssetPath": "UI/flow.anim",
+      "relativeMetaPath": "UI/flow.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "0c1d6a21-c1f2-455e-905d-eff71e8fb293",
+      "uuids": [
+        "0c1d6a21-c1f2-455e-905d-eff71e8fb293"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fly.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/fly.anim.meta",
+      "relativeAssetPath": "UI/fly.anim",
+      "relativeMetaPath": "UI/fly.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "c20bd130-eeac-4be9-9e55-71c05960c0b8",
+      "uuids": [
+        "c20bd130-eeac-4be9-9e55-71c05960c0b8"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flyIcon.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flyIcon.anim.meta",
+      "relativeAssetPath": "UI/flyIcon.anim",
+      "relativeMetaPath": "UI/flyIcon.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "cafe35d2-451a-414a-829b-30c692478660",
+      "uuids": [
+        "cafe35d2-451a-414a-829b-30c692478660"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flyLabel.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flyLabel.anim.meta",
+      "relativeAssetPath": "UI/flyLabel.anim",
+      "relativeMetaPath": "UI/flyLabel.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "698d3f95-3f78-4663-aafb-67dc2bbdea05",
+      "uuids": [
+        "698d3f95-3f78-4663-aafb-67dc2bbdea05"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flytwo.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/flytwo.anim.meta",
+      "relativeAssetPath": "UI/flytwo.anim",
+      "relativeMetaPath": "UI/flytwo.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "5d7c2b03-6cd1-470e-9970-5fd118b86ad6",
+      "uuids": [
+        "5d7c2b03-6cd1-470e-9970-5fd118b86ad6"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/foot.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/foot.anim.meta",
+      "relativeAssetPath": "UI/foot.anim",
+      "relativeMetaPath": "UI/foot.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "87dbfc09-d7f0-4d3c-a8a5-bb5960523391",
+      "uuids": [
+        "87dbfc09-d7f0-4d3c-a8a5-bb5960523391"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/getitem/wupinhuode.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/getitem/wupinhuode.skel.meta",
+      "relativeAssetPath": "UI/getitem/wupinhuode.skel",
+      "relativeMetaPath": "UI/getitem/wupinhuode.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "5cc4ee6c-13f0-4f7b-8949-d7b45801167b",
+      "uuids": [
+        "5cc4ee6c-13f0-4f7b-8949-d7b45801167b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/guanggaotips.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/guanggaotips.anim.meta",
+      "relativeAssetPath": "UI/guanggaotips.anim",
+      "relativeMetaPath": "UI/guanggaotips.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "d6424e5a-bc47-4426-a6bd-79cf6d4cc6a5",
+      "uuids": [
+        "d6424e5a-bc47-4426-a6bd-79cf6d4cc6a5"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/guide.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/guide.anim.meta",
+      "relativeAssetPath": "UI/guide.anim",
+      "relativeMetaPath": "UI/guide.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "fe7d9016-800d-4544-8f9e-bc4c329559e9",
+      "uuids": [
+        "fe7d9016-800d-4544-8f9e-bc4c329559e9"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/hit/baozha/baozha.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/hit/baozha/baozha.skel.meta",
+      "relativeAssetPath": "UI/hit/baozha/baozha.skel",
+      "relativeMetaPath": "UI/hit/baozha/baozha.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "6f41b812-d079-4fb3-a80f-2c18f9c586ae",
+      "uuids": [
+        "6f41b812-d079-4fb3-a80f-2c18f9c586ae"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/huifu/huixue.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/huifu/huixue.skel.meta",
+      "relativeAssetPath": "UI/huifu/huixue.skel",
+      "relativeMetaPath": "UI/huifu/huixue.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "c253670b-6f87-4923-af17-8518af4623db",
+      "uuids": [
+        "c253670b-6f87-4923-af17-8518af4623db"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/invite.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/invite.anim.meta",
+      "relativeAssetPath": "UI/invite.anim",
+      "relativeMetaPath": "UI/invite.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "f0de2376-d3b0-4f40-8331-bc67c1f6a55a",
+      "uuids": [
+        "f0de2376-d3b0-4f40-8331-bc67c1f6a55a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/inviteInfo-001.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/inviteInfo-001.anim.meta",
+      "relativeAssetPath": "UI/inviteInfo-001.anim",
+      "relativeMetaPath": "UI/inviteInfo-001.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "c161b303-6570-4319-9caa-bd6097384c58",
+      "uuids": [
+        "c161b303-6570-4319-9caa-bd6097384c58"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/inviteInfo.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/inviteInfo.anim.meta",
+      "relativeAssetPath": "UI/inviteInfo.anim",
+      "relativeMetaPath": "UI/inviteInfo.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "b27e5f64-152d-4376-8826-8d6f974fd76f",
+      "uuids": [
+        "b27e5f64-152d-4376-8826-8d6f974fd76f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/levelUp/jisushalu_buttom.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/levelUp/jisushalu_buttom.skel.meta",
+      "relativeAssetPath": "UI/levelUp/jisushalu_buttom.skel",
+      "relativeMetaPath": "UI/levelUp/jisushalu_buttom.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "1b0fdbab-94d5-4288-84b7-cac72891308d",
+      "uuids": [
+        "1b0fdbab-94d5-4288-84b7-cac72891308d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/levelUp/jisushalu_top.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/levelUp/jisushalu_top.skel.meta",
+      "relativeAssetPath": "UI/levelUp/jisushalu_top.skel",
+      "relativeMetaPath": "UI/levelUp/jisushalu_top.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "1d6a4717-fa23-4a6e-a732-89f3219058a4",
+      "uuids": [
+        "1d6a4717-fa23-4a6e-a732-89f3219058a4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/levelUpGhost.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/levelUpGhost.anim.meta",
+      "relativeAssetPath": "UI/levelUpGhost.anim",
+      "relativeMetaPath": "UI/levelUpGhost.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "a04e6e60-d7f8-48cb-854e-953faf42593f",
+      "uuids": [
+        "a04e6e60-d7f8-48cb-854e-953faf42593f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/liandao.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/liandao.anim.meta",
+      "relativeAssetPath": "UI/liandao.anim",
+      "relativeMetaPath": "UI/liandao.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "35e50ca8-28eb-4696-bd76-23363ee8bb9a",
+      "uuids": [
+        "35e50ca8-28eb-4696-bd76-23363ee8bb9a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/limit.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/limit.anim.meta",
+      "relativeAssetPath": "UI/limit.anim",
+      "relativeMetaPath": "UI/limit.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "0a1c3517-cb38-43c2-8419-722b1ab5bc26",
+      "uuids": [
+        "0a1c3517-cb38-43c2-8419-722b1ab5bc26"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/line.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/line.anim.meta",
+      "relativeAssetPath": "UI/line.anim",
+      "relativeMetaPath": "UI/line.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "a03f5391-e715-4f6d-b269-c7e523631d1c",
+      "uuids": [
+        "a03f5391-e715-4f6d-b269-c7e523631d1c"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/loadingLbl.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/loadingLbl.anim.meta",
+      "relativeAssetPath": "UI/loadingLbl.anim",
+      "relativeMetaPath": "UI/loadingLbl.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "2500f525-bd18-417f-92d8-c7019e47263b",
+      "uuids": [
+        "2500f525-bd18-417f-92d8-c7019e47263b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/lucky.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/lucky.anim.meta",
+      "relativeAssetPath": "UI/lucky.anim",
+      "relativeMetaPath": "UI/lucky.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "f4aa45fc-4ef6-4ffe-9085-81ae721608b2",
+      "uuids": [
+        "f4aa45fc-4ef6-4ffe-9085-81ae721608b2"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/luckybox.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/luckybox.anim.meta",
+      "relativeAssetPath": "UI/luckybox.anim",
+      "relativeMetaPath": "UI/luckybox.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "51f6d230-60fc-4b5f-8390-c0c4f82e1b65",
+      "uuids": [
+        "51f6d230-60fc-4b5f-8390-c0c4f82e1b65"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/main_light.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/main_light.anim.meta",
+      "relativeAssetPath": "UI/main_light.anim",
+      "relativeMetaPath": "UI/main_light.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "5cc28e4a-983c-4c88-85e3-69a42744afe4",
+      "uuids": [
+        "5cc28e4a-983c-4c88-85e3-69a42744afe4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/maindoor.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/maindoor.anim.meta",
+      "relativeAssetPath": "UI/maindoor.anim",
+      "relativeMetaPath": "UI/maindoor.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "71c545e9-e56d-4e0b-a1ec-eb6f16f8af2a",
+      "uuids": [
+        "71c545e9-e56d-4e0b-a1ec-eb6f16f8af2a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/mainlight.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/mainlight.anim.meta",
+      "relativeAssetPath": "UI/mainlight.anim",
+      "relativeMetaPath": "UI/mainlight.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "ff105ecc-1de2-4ea6-9ebe-91e55ce9ba03",
+      "uuids": [
+        "ff105ecc-1de2-4ea6-9ebe-91e55ce9ba03"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/mask.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/mask.anim.meta",
+      "relativeAssetPath": "UI/mask.anim",
+      "relativeMetaPath": "UI/mask.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "52fece7d-4df5-4cb0-b3c7-2cfdec94f48b",
+      "uuids": [
+        "52fece7d-4df5-4cb0-b3c7-2cfdec94f48b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/mask2.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/mask2.anim.meta",
+      "relativeAssetPath": "UI/mask2.anim",
+      "relativeMetaPath": "UI/mask2.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "77b3efed-ce12-408f-9d3f-8fb260eb41eb",
+      "uuids": [
+        "77b3efed-ce12-408f-9d3f-8fb260eb41eb"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/maskmain.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/maskmain.anim.meta",
+      "relativeAssetPath": "UI/maskmain.anim",
+      "relativeMetaPath": "UI/maskmain.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "b194c866-3cc6-4a44-90f8-4820ae99e8ae",
+      "uuids": [
+        "b194c866-3cc6-4a44-90f8-4820ae99e8ae"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/pipei.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/pipei.anim.meta",
+      "relativeAssetPath": "UI/pipei.anim",
+      "relativeMetaPath": "UI/pipei.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "cf33e908-62e0-4e3c-9d08-fbb17d1cedc9",
+      "uuids": [
+        "cf33e908-62e0-4e3c-9d08-fbb17d1cedc9"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/pvp.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/pvp.anim.meta",
+      "relativeAssetPath": "UI/pvp.anim",
+      "relativeMetaPath": "UI/pvp.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "063fd4e6-08e0-485f-9d6a-a5d950c6e6af",
+      "uuids": [
+        "063fd4e6-08e0-485f-9d6a-a5d950c6e6af"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/quantou.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/quantou.anim.meta",
+      "relativeAssetPath": "UI/quantou.anim",
+      "relativeMetaPath": "UI/quantou.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "69723a6a-1176-4f7c-97c2-47f627facebb",
+      "uuids": [
+        "69723a6a-1176-4f7c-97c2-47f627facebb"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/red2.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/red2.anim.meta",
+      "relativeAssetPath": "UI/red2.anim",
+      "relativeMetaPath": "UI/red2.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "5ab05758-d2a3-4449-997d-4789a4608bdd",
+      "uuids": [
+        "5ab05758-d2a3-4449-997d-4789a4608bdd"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/redEye.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/redEye.anim.meta",
+      "relativeAssetPath": "UI/redEye.anim",
+      "relativeMetaPath": "UI/redEye.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "a0607355-6214-4a89-86e3-454fd6913144",
+      "uuids": [
+        "a0607355-6214-4a89-86e3-454fd6913144"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/redEyeBack.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/redEyeBack.anim.meta",
+      "relativeAssetPath": "UI/redEyeBack.anim",
+      "relativeMetaPath": "UI/redEyeBack.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "865eb771-947b-443c-8d66-3db57e913925",
+      "uuids": [
+        "865eb771-947b-443c-8d66-3db57e913925"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/redpoint.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/redpoint.anim.meta",
+      "relativeAssetPath": "UI/redpoint.anim",
+      "relativeMetaPath": "UI/redpoint.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "d65cc78d-456f-469d-be66-e3e0f6f684b4",
+      "uuids": [
+        "d65cc78d-456f-469d-be66-e3e0f6f684b4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/refresh.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/refresh.anim.meta",
+      "relativeAssetPath": "UI/refresh.anim",
+      "relativeMetaPath": "UI/refresh.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "ad75d063-e5f0-4133-a9b1-0192c1c6d48f",
+      "uuids": [
+        "ad75d063-e5f0-4133-a9b1-0192c1c6d48f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/reward_tips/125.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/reward_tips/125.skel.meta",
+      "relativeAssetPath": "UI/reward_tips/125.skel",
+      "relativeMetaPath": "UI/reward_tips/125.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "68efeec5-0662-42ab-aa06-00c73e517d3f",
+      "uuids": [
+        "68efeec5-0662-42ab-aa06-00c73e517d3f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/reward_tips/380.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/reward_tips/380.skel.meta",
+      "relativeAssetPath": "UI/reward_tips/380.skel",
+      "relativeMetaPath": "UI/reward_tips/380.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "8600ae26-e721-4bf2-a10f-1e4469adf6a8",
+      "uuids": [
+        "8600ae26-e721-4bf2-a10f-1e4469adf6a8"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/rewards.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/rewards.anim.meta",
+      "relativeAssetPath": "UI/rewards.anim",
+      "relativeMetaPath": "UI/rewards.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "a06a9f06-b9fc-4f86-a160-20ad532b9b1f",
+      "uuids": [
+        "a06a9f06-b9fc-4f86-a160-20ad532b9b1f"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/rewardsMove.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/rewardsMove.anim.meta",
+      "relativeAssetPath": "UI/rewardsMove.anim",
+      "relativeMetaPath": "UI/rewardsMove.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "c8e71e7e-8750-465e-9447-6cc3ad0ef9c0",
+      "uuids": [
+        "c8e71e7e-8750-465e-9447-6cc3ad0ef9c0"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/rotate.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/rotate.anim.meta",
+      "relativeAssetPath": "UI/rotate.anim",
+      "relativeMetaPath": "UI/rotate.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "353712bc-624b-4c08-ab56-4d6725757335",
+      "uuids": [
+        "353712bc-624b-4c08-ab56-4d6725757335"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/scale.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/scale.anim.meta",
+      "relativeAssetPath": "UI/scale.anim",
+      "relativeMetaPath": "UI/scale.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "1a357a7f-6e2a-42a5-91aa-b541fadba528",
+      "uuids": [
+        "1a357a7f-6e2a-42a5-91aa-b541fadba528"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/screenAnno.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/screenAnno.anim.meta",
+      "relativeAssetPath": "UI/screenAnno.anim",
+      "relativeMetaPath": "UI/screenAnno.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "6ada21fc-dcf2-4f86-a325-5817d9c9dc44",
+      "uuids": [
+        "6ada21fc-dcf2-4f86-a325-5817d9c9dc44"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/shanshuo.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/shanshuo.anim.meta",
+      "relativeAssetPath": "UI/shanshuo.anim",
+      "relativeMetaPath": "UI/shanshuo.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "e5e4f019-0ac2-4822-a683-a58d264ab2e0",
+      "uuids": [
+        "e5e4f019-0ac2-4822-a683-a58d264ab2e0"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/shield.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/shield.anim.meta",
+      "relativeAssetPath": "UI/shield.anim",
+      "relativeMetaPath": "UI/shield.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "489133aa-984f-4633-bf0e-f653378c2b14",
+      "uuids": [
+        "489133aa-984f-4633-bf0e-f653378c2b14"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/skill/kuangbao/kuangbao.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/skill/kuangbao/kuangbao.skel.meta",
+      "relativeAssetPath": "UI/skill/kuangbao/kuangbao.skel",
+      "relativeMetaPath": "UI/skill/kuangbao/kuangbao.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "ed2efee2-96a7-4456-ae19-b402e19d8fb8",
+      "uuids": [
+        "ed2efee2-96a7-4456-ae19-b402e19d8fb8"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/skill/mabi/mabi.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/skill/mabi/mabi.skel.meta",
+      "relativeAssetPath": "UI/skill/mabi/mabi.skel",
+      "relativeMetaPath": "UI/skill/mabi/mabi.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "bf527c8f-c04d-4121-b2b4-a37be88f6e3d",
+      "uuids": [
+        "bf527c8f-c04d-4121-b2b4-a37be88f6e3d"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/startMatch.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/startMatch.anim.meta",
+      "relativeAssetPath": "UI/startMatch.anim",
+      "relativeMetaPath": "UI/startMatch.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "0412b111-70aa-4df4-bf08-2f2979e710a6",
+      "uuids": [
+        "0412b111-70aa-4df4-bf08-2f2979e710a6"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/stopMatch.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/stopMatch.anim.meta",
+      "relativeAssetPath": "UI/stopMatch.anim",
+      "relativeMetaPath": "UI/stopMatch.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "59ea5634-8324-44a2-b8b6-b3bfd86a5f6a",
+      "uuids": [
+        "59ea5634-8324-44a2-b8b6-b3bfd86a5f6a"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/tips.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/tips.anim.meta",
+      "relativeAssetPath": "UI/tips.anim",
+      "relativeMetaPath": "UI/tips.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "a7f50c83-6803-47f5-b3c4-a53ad1feccb4",
+      "uuids": [
+        "a7f50c83-6803-47f5-b3c4-a53ad1feccb4"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/unlock/jiesuo.skel",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/unlock/jiesuo.skel.meta",
+      "relativeAssetPath": "UI/unlock/jiesuo.skel",
+      "relativeMetaPath": "UI/unlock/jiesuo.skel.meta",
+      "ext": ".skel",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "consider-delete",
+      "levelName": "考虑删除",
+      "reason": "未知或高风险资源类型，未发现 UUID 引用，需要人工确认"
+    },
+    {
+      "uuid": "f71b532c-550f-408d-9b49-32bf81c1171b",
+      "uuids": [
+        "f71b532c-550f-408d-9b49-32bf81c1171b"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/words.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/words.anim.meta",
+      "relativeAssetPath": "UI/words.anim",
+      "relativeMetaPath": "UI/words.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    },
+    {
+      "uuid": "4bec14bf-11ea-4b5c-b814-35a012b9c2bb",
+      "uuids": [
+        "4bec14bf-11ea-4b5c-b814-35a012b9c2bb"
+      ],
+      "assetPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/youxijilight.anim",
+      "metaPath": "D:/git/a9/A9-Client/assets/spine/spines/UI/youxijilight.anim.meta",
+      "relativeAssetPath": "UI/youxijilight.anim",
+      "relativeMetaPath": "UI/youxijilight.anim.meta",
+      "ext": ".anim",
+      "kind": "file",
+      "referenceCount": 0,
+      "references": [],
+      "checkedBy": [
+        "uuid"
+      ],
+      "git": {
+        "committed": true,
+        "timestamp": 1780017951,
+        "date": "2026-05-29 09:25:51 +0800",
+        "hash": "4130ac53",
+        "reason": ""
+      },
+      "level": "suggested-delete",
+      "levelName": "建议删除",
+      "reason": "资源未发现 UUID 引用，但类型可能作为场景/预制体/材质/配置入口，需要确认"
+    }
+  ]
+}

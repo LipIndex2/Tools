@@ -9,6 +9,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "check:cocos-unused": "node js_script/check-cocos-unused-assets.mjs",
+    "check:cocos-unused-scripts": "node js_script/check-cocos-unused-scripts.mjs",
+    "delete:cocos-relations": "node js_script/delete-cocos-asset-relations.mjs",
     "start": "nodemon --watch main.js --exec electron .",
     "package": "electron-forge package",
     "make": "electron-forge make"

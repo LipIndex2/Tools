@@ -1,0 +1,7 @@
+# Cocos 未使用脚本检查白名单
+# 一行一个规则；支持绝对路径、相对 assets 路径、文件名和 * 通配符。
+# 示例:
+# scripts/Entry.ts
+# Entry.ts
+# */generated/*
+D:\git\a9\A9-Client\assets\scripts\framework

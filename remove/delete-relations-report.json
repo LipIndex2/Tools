@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-29T07:48:45.190Z",
+  "mode": "delete-list",
+  "listPath": "D:/git/Tools/removeScript/direct-delete.txt",
+  "dryRun": true,
+  "summary": {
+    "assetCount": 1,
+    "deletePathCount": 0,
+    "failedCount": 0,
+    "cleanedEmptyDirCount": 0,
+    "cleanupFailedCount": 0
+  },
+  "assets": [
+    {
+      "assetPath": "D:/git/Tools/tmp_unused_script_test/assets/scripts/UnusedScript.ts",
+      "metaPath": "D:/git/Tools/tmp_unused_script_test/assets/scripts/UnusedScript.ts.meta",
+      "kind": "file"
+    }
+  ],
+  "deleteResult": {
+    "deleted": [],
+    "failed": []
+  }
+}
